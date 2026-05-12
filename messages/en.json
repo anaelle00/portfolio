@@ -15,17 +15,24 @@
   },
   "about": {
     "title": "About Me",
-    "bio": "I'm a software engineering student passionate about building elegant, performant web applications. I love the intersection of code and design — where technical precision meets creative vision.",
-    "bio2": "When I'm not coding, you'll find me exploring new technologies, contributing to open-source projects, or sketching out UI concepts.",
+    "bio": "Software engineering student at Polytechnique Montréal, currently finishing my second year with distinction after a preparatory year and a baccalauréat mention très bien from Lycée Saint-Paul d'Angoulême. From July 2026, I'll be on exchange at the University of Technology Sydney.",
+    "bio2": "What truly interests me is the intersection of technical rigor and creative sensibility. I believe great products are born from that balance — between clean code and design that makes sense.",
+    "bio3": "Beyond code, I love art, the humanities, music, and dance. It's that mix that shapes how I approach problems: with curiosity, method, and a strong sense of aesthetics.",
     "stats": {
       "years": "Years of code",
       "projects": "Projects built",
       "techs": "Technologies"
     },
-    "yearsValue": "3",
-    "projectsValue": "12",
-    "techsValue": "20",
-    "imageAlt": "Anaelle Mathe"
+    "yearsValue": "2",
+    "projectsValue": "5",
+    "techsValue": "10",
+    "imageAlt": "Anaelle Mathe",
+    "values": {
+      "title": "What I value",
+      "code": { "label": "Clean code", "desc": "Readable, tested, maintainable — code is read more than written." },
+      "design": { "label": "Thoughtful design", "desc": "Every pixel and interaction should have intent." },
+      "human": { "label": "Human-first", "desc": "Tech serves people, not the other way around." }
+    }
   },
   "projects": {
     "title": "Projects",

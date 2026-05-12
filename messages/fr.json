@@ -15,17 +15,24 @@
   },
   "about": {
     "title": "À propos",
-    "bio": "Étudiante en ingénierie logicielle, je suis passionnée par la création d'applications web élégantes et performantes. J'aime l'intersection entre le code et le design — là où la précision technique rencontre la vision créative.",
-    "bio2": "Quand je ne code pas, j'explore de nouvelles technologies, contribue à des projets open-source ou dessine des concepts UI.",
+    "bio": "Étudiante en génie logiciel à Polytechnique Montréal, je termine ma 2e année avec mention d'excellence après une année préparatoire et un baccalauréat mention très bien au lycée Saint-Paul d'Angoulême. À partir de juillet 2026, je pars en échange à l'Université de Technologie de Sydney.",
+    "bio2": "Ce qui m'intéresse vraiment, c'est l'intersection entre la rigueur technique et la sensibilité créative. Je crois qu'un bon produit naît de cet équilibre — entre code propre et design qui a du sens.",
+    "bio3": "Au-delà du code, j'aime l'art, les sciences humaines, la musique et la danse. C'est ce mélange qui nourrit ma façon d'aborder les problèmes : avec curiosité, méthode et une bonne dose de sens esthétique.",
     "stats": {
       "years": "Ans de code",
       "projects": "Projets réalisés",
       "techs": "Technologies"
     },
-    "yearsValue": "3",
-    "projectsValue": "12",
-    "techsValue": "20",
-    "imageAlt": "Anaelle Mathe"
+    "yearsValue": "2",
+    "projectsValue": "5",
+    "techsValue": "10",
+    "imageAlt": "Anaelle Mathe",
+    "values": {
+      "title": "Ce que je valorise",
+      "code": { "label": "Code propre", "desc": "Lisible, testé, maintenable — le code se lit plus qu'il ne s'écrit." },
+      "design": { "label": "Design pensé", "desc": "Chaque pixel et interaction doit avoir une intention." },
+      "human": { "label": "Avant tout humain", "desc": "La tech est au service des gens, pas l'inverse." }
+    }
   },
   "projects": {
     "title": "Projets",
