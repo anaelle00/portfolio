@@ -85,11 +85,14 @@
   "contact": {
     "title": "Construisons ensemble",
     "subtitle": "Un projet en tête ? Parlons-en.",
+    "availability": "Actuellement en 3e année de génie logiciel. Disponible pour stages hiver / été 2027.",
     "email": "Me contacter",
     "github": "GitHub",
-    "linkedin": "LinkedIn"
+    "linkedin": "LinkedIn",
+    "downloadCv": "Télécharger CV"
   },
   "footer": {
-    "copyright": "© 2025 Anaelle Mathe. Tous droits réservés."
+    "copyright": "© 2026 Anaelle Mathe. Tous droits réservés.",
+    "viewSource": "Voir le code source"
   }
 }

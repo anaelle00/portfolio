@@ -85,11 +85,14 @@
   "contact": {
     "title": "Let's build something",
     "subtitle": "Have a project in mind? Let's talk.",
+    "availability": "Currently in 3rd year of Software Engineering. Open to internships for Winter / Summer 2027.",
     "email": "Get in touch",
     "github": "GitHub",
-    "linkedin": "LinkedIn"
+    "linkedin": "LinkedIn",
+    "downloadCv": "Download CV"
   },
   "footer": {
-    "copyright": "© 2025 Anaelle Mathe. All rights reserved."
+    "copyright": "© 2026 Anaelle Mathe. All rights reserved.",
+    "viewSource": "View source"
   }
 }

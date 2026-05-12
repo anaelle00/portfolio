@@ -28,7 +28,7 @@ export default function Contact() {
               className="text-xs font-medium tracking-[0.3em] uppercase mb-4 block"
               style={{ color: "var(--pink)", fontFamily: "var(--font-mono)" }}
             >
-              <ScrambleText text="05. contact" />
+              <ScrambleText text="06. contact" />
             </span>
           </motion.div>
 
@@ -54,6 +54,18 @@ export default function Contact() {
             {t("subtitle")}
           </motion.p>
 
+          {/* Availability disclaimer */}
+          <motion.p
+            initial={{ opacity: 0, y: 10 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.15 }}
+            className="text-sm mb-8"
+            style={{ color: "var(--text-muted)", fontFamily: "var(--font-mono)" }}
+          >
+            {t("availability")}
+          </motion.p>
+
           {/* Email CTA */}
           <motion.a
             href={`mailto:${EMAIL}`}
@@ -62,7 +74,7 @@ export default function Contact() {
             viewport={{ once: true }}
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.3 }}
-            className="inline-flex items-center gap-3 px-8 py-5 rounded-2xl text-xl font-bold mb-10"
+            className="inline-flex items-center gap-3 px-8 py-5 rounded-2xl text-xl font-bold mb-6"
             style={{
               background: "linear-gradient(135deg, rgba(255,42,157,0.15), rgba(168,85,247,0.1))",
               border: "1px solid rgba(255,42,157,0.4)",
@@ -75,6 +87,31 @@ export default function Contact() {
             <span style={{ color: "var(--pink)" }}>✉</span>
             {EMAIL}
           </motion.a>
+
+          {/* CV button */}
+          <motion.div
+            initial={{ opacity: 0, y: 10 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+            className="mb-10"
+          >
+            <a
+              href="/cv.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-5 py-3 rounded-xl text-sm font-semibold transition-all duration-200 hover:scale-105"
+              style={{
+                border: "1px solid rgba(255,42,157,0.3)",
+                color: "var(--text-secondary)",
+                fontFamily: "var(--font-display)",
+                background: "rgba(255,42,157,0.05)",
+              }}
+              data-cursor-hover
+            >
+              {t("downloadCv")} ↗
+            </a>
+          </motion.div>
 
           {/* Social links */}
           <motion.div
@@ -125,7 +162,18 @@ export default function Contact() {
           >
             {tFooter("copyright")}
           </p>
-          <LanguageToggle />
+          <div className="flex items-center gap-6">
+            <a
+              href="https://github.com/anaelle00/portfolio"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xs transition-colors duration-200 hover:text-[var(--pink)]"
+              style={{ color: "var(--text-muted)", fontFamily: "var(--font-mono)" }}
+            >
+              {tFooter("viewSource")} ↗
+            </a>
+            <LanguageToggle />
+          </div>
         </div>
       </footer>
     </>
