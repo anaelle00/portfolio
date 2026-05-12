@@ -3,6 +3,7 @@
     "about": "À propos",
     "projects": "Projets",
     "journey": "Parcours",
+    "beyond": "Ailleurs",
     "stack": "Stack",
     "contact": "Contact"
   },
@@ -57,6 +58,21 @@
       "title": "Robot Autonome — INF1900",
       "description": "Programmation d'un robot autonome pour suivre une ligne noire, éviter des obstacles et revenir à sa position de départ — avec un microcontrôleur ATmega324PA et une logique à base de machines à états.",
       "tagline": "Robot embarqué autonome avec suivi de ligne et évitement d'obstacles"
+    }
+  },
+  "beyond": {
+    "label": "04. au-delà",
+    "title": "Au-delà du code",
+    "subtitle": "Le code n'est qu'une partie de qui je suis",
+    "engagements": "Engagements & expériences",
+    "passions": "Passions artistiques",
+    "items": {
+      "eai": { "title": "E-AI — Bénévolat", "desc": "Association étudiante liant éthique et IA — membre active et bénévole." },
+      "climate": { "title": "Bénévolat climat", "desc": "Engagement pour l'environnement, à venir juin 2026." },
+      "datathon": { "title": "Finance Datathon 2025", "desc": "Participante à un hackathon d'analyse de données financières." },
+      "art": { "title": "Art & sciences humaines", "desc": "Curiosité pour les arts visuels et les sciences humaines — source constante d'inspiration." },
+      "music": { "title": "Batterie & Piano", "desc": "Musicienne qui aime jouer de la batterie et du piano. La rigueur du rythme nourrit la rigueur du code." },
+      "dance": { "title": "Danse", "desc": "Le mouvement comme deuxième langage — contemporain et improvisation." }
     }
   },
   "stack": {

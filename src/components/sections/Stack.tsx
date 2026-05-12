@@ -5,45 +5,33 @@ import { motion } from "framer-motion";
 import Marquee from "@/components/ui/Marquee";
 import ScrambleText from "@/components/animations/ScrambleText";
 
-const STACK_ITEMS = [
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Python",
-  "Tailwind CSS",
-  "PostgreSQL",
-  "Supabase",
-  "Git",
-  "Docker",
-  "REST APIs",
-  "GraphQL",
-  "Framer Motion",
-  "GSAP",
-  "Figma",
-  "Vercel",
+const TIERS = [
+  {
+    labelEn: "Daily drivers",
+    labelFr: "Outils quotidiens",
+    color: "var(--pink)",
+    speed: 30,
+    items: ["TypeScript", "React", "Next.js", "Tailwind CSS", "Git", "GitHub", "PostgreSQL", "Supabase"],
+  },
+  {
+    labelEn: "Solid foundation",
+    labelFr: "Bases solides",
+    color: "var(--cyan)",
+    speed: 22,
+    items: ["Node.js", "Python", "C++", "Java", "REST APIs", "Stripe", "Express", "Prisma", "MongoDB"],
+  },
+  {
+    labelEn: "Currently exploring",
+    labelFr: "En cours d'exploration",
+    color: "var(--text-muted)",
+    speed: 16,
+    items: ["Docker", "GSAP", "Framer Motion", "Playwright", "Vitest", "GitHub Actions", "FastAPI", "Redis"],
+  },
 ];
 
-const STACK_ITEMS_2 = [
-  "Java",
-  "Spring Boot",
-  "MongoDB",
-  "Redis",
-  "AWS",
-  "CI/CD",
-  "Jest",
-  "Vitest",
-  "Prisma",
-  "Express",
-  "FastAPI",
-  "Linux",
-  "Bash",
-  "VSCode",
-  "GitHub Actions",
-];
-
-export default function Stack() {
+export default function Stack({ locale }: { locale?: string }) {
   const t = useTranslations("stack");
+  const fr = locale === "fr";
 
   return (
     <section id="stack" className="py-20 overflow-hidden">
@@ -58,7 +46,7 @@ export default function Stack() {
             className="text-xs font-medium tracking-[0.3em] uppercase mb-4 block"
             style={{ color: "var(--pink)", fontFamily: "var(--font-mono)" }}
           >
-            <ScrambleText text="04. stack" />
+            <ScrambleText text="05. stack" />
           </span>
           <h2
             className="text-4xl md:text-5xl font-bold"
@@ -69,33 +57,30 @@ export default function Stack() {
         </motion.div>
       </div>
 
-      {/* Marquee rows */}
-      <div className="space-y-8">
-        <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.8 }}
-        >
-          <Marquee items={STACK_ITEMS} speed={25} />
-        </motion.div>
-        <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.8, delay: 0.2 }}
-        >
-          <Marquee items={STACK_ITEMS_2} speed={35} />
-        </motion.div>
+      <div className="space-y-10">
+        {TIERS.map((tier, i) => (
+          <motion.div
+            key={tier.labelEn}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8, delay: i * 0.1 }}
+          >
+            <p
+              className="section-wrapper text-xs tracking-[0.25em] uppercase mb-3"
+              style={{ color: tier.color, fontFamily: "var(--font-mono)" }}
+            >
+              {fr ? tier.labelFr : tier.labelEn}
+            </p>
+            <Marquee items={tier.items} speed={tier.speed} color={tier.color} />
+          </motion.div>
+        ))}
       </div>
 
-      {/* Decorative divider */}
       <div className="section-wrapper mt-12">
         <div
           className="h-px w-full"
-          style={{
-            background: "linear-gradient(to right, transparent, var(--pink), transparent)",
-          }}
+          style={{ background: "linear-gradient(to right, transparent, var(--pink), transparent)" }}
         />
       </div>
     </section>

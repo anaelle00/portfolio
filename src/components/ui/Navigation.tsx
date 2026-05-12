@@ -6,7 +6,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import LanguageToggle from "./LanguageToggle";
 import clsx from "clsx";
 
-const navItems = ["about", "projects", "journey", "stack", "contact"] as const;
+const navItems = ["about", "projects", "journey", "beyond", "stack", "contact"] as const;
 
 export default function Navigation() {
   const t = useTranslations("nav");

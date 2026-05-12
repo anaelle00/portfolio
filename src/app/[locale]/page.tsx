@@ -4,6 +4,7 @@ import Hero from "@/components/sections/Hero";
 import About from "@/components/sections/About";
 import Projects from "@/components/sections/Projects";
 import Journey from "@/components/sections/Journey";
+import BeyondCode from "@/components/sections/BeyondCode";
 import Stack from "@/components/sections/Stack";
 import Contact from "@/components/sections/Contact";
 
@@ -16,7 +17,8 @@ export default async function Home() {
       <About />
       <Projects />
       <Journey locale={locale} />
-      <Stack />
+      <BeyondCode />
+      <Stack locale={locale} />
       <Contact />
     </main>
   );

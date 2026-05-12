@@ -3,6 +3,7 @@
     "about": "About",
     "projects": "Projects",
     "journey": "Journey",
+    "beyond": "Beyond",
     "stack": "Stack",
     "contact": "Contact"
   },
@@ -57,6 +58,21 @@
       "title": "Autonomous Robot — INF1900",
       "description": "Programmed an autonomous robot to navigate a black-line circuit, avoid obstacles, and return to its starting position — using an ATmega324PA AVR microcontroller and state machine logic.",
       "tagline": "Embedded autonomous robot with line tracking and obstacle avoidance"
+    }
+  },
+  "beyond": {
+    "label": "04. beyond",
+    "title": "Beyond code",
+    "subtitle": "Code is only part of who I am",
+    "engagements": "Engagements & experiences",
+    "passions": "Artistic passions",
+    "items": {
+      "eai": { "title": "E-AI — Volunteering", "desc": "Student association linking ethics and AI — active member and volunteer." },
+      "climate": { "title": "Climate volunteering", "desc": "Environmental engagement, upcoming June 2026." },
+      "datathon": { "title": "Finance Datathon 2025", "desc": "Participant in a financial data analysis hackathon." },
+      "art": { "title": "Art & humanities", "desc": "Curiosity for visual arts and the humanities — a constant source of inspiration." },
+      "music": { "title": "Drums & Piano", "desc": "Musician who loves playing drums and piano. The rigor of rhythm feeds the rigor of code." },
+      "dance": { "title": "Dance", "desc": "Movement as a second language — contemporary and improvisation." }
     }
   },
   "stack": {

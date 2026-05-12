@@ -6,9 +6,10 @@ import { motion } from "framer-motion";
 interface MarqueeProps {
   items: string[];
   speed?: number;
+  color?: string;
 }
 
-export default function Marquee({ items, speed = 30 }: MarqueeProps) {
+export default function Marquee({ items, speed = 30, color = "var(--pink)" }: MarqueeProps) {
   const doubled = [...items, ...items];
 
   return (
@@ -28,7 +29,7 @@ export default function Marquee({ items, speed = 30 }: MarqueeProps) {
             className="text-sm font-medium flex items-center gap-3"
             style={{ color: "var(--text-secondary)", fontFamily: "var(--font-mono)" }}
           >
-            <span style={{ color: "var(--pink)" }}>◆</span>
+            <span style={{ color }}>◆</span>
             {item}
           </span>
         ))}
