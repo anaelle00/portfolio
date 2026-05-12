@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import CustomCursor from "@/components/ui/CustomCursor";
 import SmoothScrollProvider from "@/components/ui/SmoothScrollProvider";
+import ConsoleEasterEgg from "@/components/ui/ConsoleEasterEgg";
 
 type Locale = "en" | "fr";
 
@@ -29,6 +30,7 @@ export default async function LocaleLayout({
   return (
     <NextIntlClientProvider messages={messages}>
       <SmoothScrollProvider>
+        <ConsoleEasterEgg />
         <CustomCursor />
         {children}
       </SmoothScrollProvider>

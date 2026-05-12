@@ -21,26 +21,37 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Anaelle Mathe — Software Engineer",
+  metadataBase: new URL("https://anaellemathe.dev"),
+  title: "Anaelle Mathe — Software Engineer · Montréal",
   description:
-    "Personal portfolio of Anaelle Mathe, a software engineer crafting elegant web experiences with clean code and bold design.",
-  keywords: ["software engineer", "web developer", "Next.js", "React", "TypeScript", "portfolio"],
+    "Software engineering student at Polytechnique Montréal. Building modern web experiences at the intersection of code and design.",
+  keywords: [
+    "software engineer",
+    "web developer",
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Polytechnique Montréal",
+    "portfolio",
+    "full-stack",
+    "Anaelle Mathe",
+  ],
   authors: [{ name: "Anaelle Mathe" }],
   creator: "Anaelle Mathe",
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://anaellemathe.dev",
-    title: "Anaelle Mathe — Software Engineer",
+    title: "Anaelle Mathe — Software Engineer · Montréal",
     description:
-      "Personal portfolio of Anaelle Mathe, a software engineer crafting elegant web experiences.",
+      "Software engineering student at Polytechnique Montréal. Building modern web experiences at the intersection of code and design.",
     siteName: "Anaelle Mathe",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Anaelle Mathe — Software Engineer",
+    title: "Anaelle Mathe — Software Engineer · Montréal",
     description:
-      "Personal portfolio of Anaelle Mathe, a software engineer crafting elegant web experiences.",
+      "Software engineering student at Polytechnique Montréal. Building modern web experiences at the intersection of code and design.",
   },
   robots: {
     index: true,
