@@ -9,11 +9,11 @@
   },
   "hero": {
     "greeting": "Salut, je suis",
-    "name": "Anaëlle Mathé",
+    "name": "Anaelle Mathe",
     "roles": ["Ingénieure Logicielle", "Développeuse Web", "Problem Solver", "Creative Coder"],
     "tagline": "Je crée des expériences numériques avec du code propre et un design audacieux.",
     "scrollHint": "Découvrir",
-    "availability": "Échange Sydney · Juil–Nov 2026",
+    "availability": "Disponible pour stages · Hiver / Été 2027",
     "location": "Montréal, QC",
     "downloadCv": "Télécharger CV"
   },
@@ -61,7 +61,7 @@
     }
   },
   "beyond": {
-    "label": "04. au-delà",
+    "label": "05. au-delà",
     "title": "Au-delà du code",
     "subtitle": "Le code n'est qu'une partie de qui je suis",
     "engagements": "Engagements & expériences",

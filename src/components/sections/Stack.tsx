@@ -46,7 +46,7 @@ export default function Stack({ locale }: { locale?: string }) {
             className="text-xs font-medium tracking-[0.3em] uppercase mb-4 block"
             style={{ color: "var(--pink)", fontFamily: "var(--font-mono)" }}
           >
-            <ScrambleText text="05. stack" />
+            <ScrambleText text="04. stack" />
           </span>
           <h2
             className="text-4xl md:text-5xl font-bold"

@@ -9,11 +9,11 @@
   },
   "hero": {
     "greeting": "Hi, I'm",
-    "name": "Anaëlle Mathé",
+    "name": "Anaelle Mathe",
     "roles": ["Software Engineer", "Web Developer", "Problem Solver", "Creative Coder"],
     "tagline": "Crafting digital experiences with clean code and bold design.",
     "scrollHint": "Scroll down",
-    "availability": "Sydney exchange · Jul–Nov 2026",
+    "availability": "Open to internships · Winter / Summer 2027",
     "location": "Montréal, QC",
     "downloadCv": "Download CV"
   },
@@ -61,7 +61,7 @@
     }
   },
   "beyond": {
-    "label": "04. beyond",
+    "label": "05. beyond",
     "title": "Beyond code",
     "subtitle": "Code is only part of who I am",
     "engagements": "Engagements & experiences",

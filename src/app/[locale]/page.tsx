@@ -17,8 +17,8 @@ export default async function Home() {
       <About />
       <Projects />
       <Journey locale={locale} />
-      <BeyondCode />
       <Stack locale={locale} />
+      <BeyondCode />
       <Contact />
     </main>
   );
