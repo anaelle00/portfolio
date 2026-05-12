@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# anaellemathe.dev — Personal Portfolio
 
-## Getting Started
+Personal portfolio of Anaëlle Mathé, software engineer. Built with a cyberpunk girly aesthetic: deep black background, neon pink & cyan accents, smooth animations.
 
-First, run the development server:
+## Stack
+
+- **Framework**: Next.js 16 (App Router, TypeScript)
+- **Styling**: Tailwind CSS v4
+- **Animations**: GSAP + ScrollTrigger, Framer Motion
+- **Smooth scroll**: Lenis
+- **i18n**: next-intl (FR / EN, browser detection)
+- **Fonts**: Space Grotesk (display), Inter (body), JetBrains Mono (mono)
+
+## Getting started
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) — it auto-detects your browser language and redirects to `/fr` or `/en`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+src/
+├── app/
+│   ├── [locale]/         # Localized routes (FR / EN)
+│   │   ├── layout.tsx    # Locale layout (Lenis, cursor, intl provider)
+│   │   └── page.tsx      # One-pager with all sections
+│   ├── globals.css       # CSS variables, global styles
+│   └── layout.tsx        # Root layout (fonts, SEO metadata)
+├── components/
+│   ├── sections/         # Hero, About, Projects, Stack, Contact
+│   ├── ui/               # Navigation, CustomCursor, Marquee, ProjectCard…
+│   └── animations/       # SplitText (GSAP), ScrambleText
+├── i18n/                 # next-intl config & routing
+└── lib/
+    └── projects.ts       # Project data
+messages/
+├── en.json
+└── fr.json
+```
 
-## Learn More
+## Customisation
 
-To learn more about Next.js, take a look at the following resources:
+| What | Where |
+|------|-------|
+| Your projects | `src/lib/projects.ts` + `messages/en.json` / `fr.json` |
+| Your bio / stats | `messages/en.json` → `about.*` |
+| Social links | `src/components/sections/Contact.tsx` — `EMAIL`, `GITHUB`, `LINKEDIN` |
+| Color palette | `src/app/globals.css` → `:root` |
+| Stack marquee items | `src/components/sections/Stack.tsx` → `STACK_ITEMS` |
+| Your photo | Replace the `AM` placeholder in `About.tsx` with `<Image>` |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deployment on Vercel
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Push to GitHub
+2. Import repo on [vercel.com/new](https://vercel.com/new)
+3. No env vars needed — click Deploy
 
-## Deploy on Vercel
+To add a custom domain (e.g. `anaellemathe.dev`):
+- Buy on Porkbun or Cloudflare (~$12/yr)
+- Add in Vercel → Project → Settings → Domains
+- Follow the DNS instructions
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Development
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+npm run dev      # dev server (localhost:3000)
+npm run build    # production build
+npm run lint     # ESLint
+```
