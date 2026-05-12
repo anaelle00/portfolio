@@ -8,10 +8,13 @@
   },
   "hero": {
     "greeting": "Salut, je suis",
-    "name": "Anaelle Mathe",
+    "name": "Anaëlle Mathé",
     "roles": ["Ingénieure Logicielle", "Développeuse Web", "Problem Solver", "Creative Coder"],
     "tagline": "Je crée des expériences numériques avec du code propre et un design audacieux.",
-    "scrollHint": "Défiler vers le bas"
+    "scrollHint": "Découvrir",
+    "availability": "Échange Sydney · Juil–Nov 2026",
+    "location": "Montréal, QC",
+    "downloadCv": "Télécharger CV"
   },
   "about": {
     "title": "À propos",

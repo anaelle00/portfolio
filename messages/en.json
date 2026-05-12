@@ -8,10 +8,13 @@
   },
   "hero": {
     "greeting": "Hi, I'm",
-    "name": "Anaelle Mathe",
+    "name": "Anaëlle Mathé",
     "roles": ["Software Engineer", "Web Developer", "Problem Solver", "Creative Coder"],
     "tagline": "Crafting digital experiences with clean code and bold design.",
-    "scrollHint": "Scroll down"
+    "scrollHint": "Scroll down",
+    "availability": "Sydney exchange · Jul–Nov 2026",
+    "location": "Montréal, QC",
+    "downloadCv": "Download CV"
   },
   "about": {
     "title": "About Me",
