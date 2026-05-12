@@ -80,7 +80,7 @@ export default function About() {
 
         <div className="grid md:grid-cols-2 gap-20 items-center">
           {/* Text content */}
-          <div className="flex flex-col gap-8">
+          <div className="flex flex-col gap-6">
             <motion.p
               variants={fadeUp}
               initial="hidden"
@@ -105,13 +105,25 @@ export default function About() {
               {t("bio2")}
             </motion.p>
 
+            <motion.p
+              variants={fadeUp}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, margin: "-60px" }}
+              custom={0.18}
+              className="leading-relaxed"
+              style={{ color: "var(--text-muted)" }}
+            >
+              {t("bio3")}
+            </motion.p>
+
             {/* Stats */}
             <motion.div
               variants={fadeUp}
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true, margin: "-60px" }}
-              custom={0.2}
+              custom={0.25}
               className="grid grid-cols-3 gap-8 pt-6 border-t"
               style={{ borderColor: "rgba(255,42,157,0.12)" }}
             >
@@ -186,6 +198,68 @@ export default function About() {
             </motion.div>
           </motion.div>
         </div>
+
+        {/* What I value */}
+        <motion.div
+          initial={{ opacity: 0, y: 24 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-60px" }}
+          transition={{ duration: 0.6, delay: 0.1 }}
+          className="mt-20"
+        >
+          <p
+            className="text-xs font-medium tracking-[0.3em] uppercase mb-8"
+            style={{ color: "var(--pink)", fontFamily: "var(--font-mono)" }}
+          >
+            {t("values.title")}
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            {[
+              { key: "code", icon: "⌨" },
+              { key: "design", icon: "✦" },
+              { key: "human", icon: "◎" },
+            ].map(({ key, icon }, i) => (
+              <motion.div
+                key={key}
+                initial={{ opacity: 0, y: 16 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: i * 0.1 }}
+                className="group flex items-start gap-4 rounded-2xl p-5 transition-all duration-300"
+                style={{
+                  background: "var(--bg-card)",
+                  border: "1px solid rgba(255,42,157,0.1)",
+                }}
+                onMouseEnter={(e) => {
+                  (e.currentTarget as HTMLDivElement).style.borderColor = "rgba(255,42,157,0.35)";
+                  (e.currentTarget as HTMLDivElement).style.boxShadow = "0 0 24px rgba(255,42,157,0.1)";
+                }}
+                onMouseLeave={(e) => {
+                  (e.currentTarget as HTMLDivElement).style.borderColor = "rgba(255,42,157,0.1)";
+                  (e.currentTarget as HTMLDivElement).style.boxShadow = "none";
+                }}
+              >
+                <span
+                  className="text-2xl mt-0.5 shrink-0"
+                  style={{ color: "var(--pink)" }}
+                >
+                  {icon}
+                </span>
+                <div>
+                  <p
+                    className="font-semibold mb-1"
+                    style={{ fontFamily: "var(--font-display)" }}
+                  >
+                    {t(`values.${key}.label` as Parameters<typeof t>[0])}
+                  </p>
+                  <p className="text-sm leading-relaxed" style={{ color: "var(--text-muted)" }}>
+                    {t(`values.${key}.desc` as Parameters<typeof t>[0])}
+                  </p>
+                </div>
+              </motion.div>
+            ))}
+          </div>
+        </motion.div>
       </div>
     </section>
   );
