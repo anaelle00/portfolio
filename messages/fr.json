@@ -1,0 +1,70 @@
+{
+  "nav": {
+    "about": "À propos",
+    "projects": "Projets",
+    "journey": "Parcours",
+    "stack": "Stack",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Salut, je suis",
+    "name": "Anaelle Mathe",
+    "roles": ["Ingénieure Logicielle", "Développeuse Web", "Problem Solver", "Creative Coder"],
+    "tagline": "Je crée des expériences numériques avec du code propre et un design audacieux.",
+    "scrollHint": "Défiler vers le bas"
+  },
+  "about": {
+    "title": "À propos",
+    "bio": "Étudiante en ingénierie logicielle, je suis passionnée par la création d'applications web élégantes et performantes. J'aime l'intersection entre le code et le design — là où la précision technique rencontre la vision créative.",
+    "bio2": "Quand je ne code pas, j'explore de nouvelles technologies, contribue à des projets open-source ou dessine des concepts UI.",
+    "stats": {
+      "years": "Ans de code",
+      "projects": "Projets réalisés",
+      "techs": "Technologies"
+    },
+    "yearsValue": "3",
+    "projectsValue": "12",
+    "techsValue": "20",
+    "imageAlt": "Anaelle Mathe"
+  },
+  "projects": {
+    "title": "Projets",
+    "featured": "À la une",
+    "viewCode": "Voir le code",
+    "viewDemo": "Démo live",
+    "campuslift": {
+      "title": "CampusLift",
+      "description": "Une plateforme de financement participatif étudiante : les créateurs publient des initiatives campus, collectent des micro-dons et animent des discussions — avec paiements Stripe, notifications en direct et modération.",
+      "longDescription": "CampusLift permet aux étudiants de financer des initiatives campus via des micro-dons. Les créateurs gèrent le cycle de vie complet de leurs projets (brouillon → publié → archivé), suivent les financements en temps réel via Supabase et reçoivent des notifications par email et in-app. Les supporters parcourent les projets par catégorie, contribuent via Stripe Checkout et participent à des discussions. Construit avec Next.js 16, React 19, TypeScript, Tailwind CSS 4, Supabase (PostgreSQL + temps réel), Stripe et Resend. 8 tables protégées par RLS, 109+ tests, E2E Playwright et pipeline CI GitHub Actions."
+    },
+    "placeholder1": {
+      "title": "Projet Universitaire #1",
+      "description": "Une application web réalisée dans le cadre d'un projet universitaire, explorant les concepts full-stack."
+    },
+    "placeholder2": {
+      "title": "Projet Systèmes Embarqués",
+      "description": "Programmation d'un robot autonome pour suivre une ligne noire, éviter des obstacles et revenir à sa position de départ — avec un microcontrôleur ATmega324PA, C/C++ et une logique à base de machines à états."
+    },
+    "placeholder3": {
+      "title": "Projet Universitaire #3",
+      "description": "Un outil de visualisation de données construit avec React et D3.js pour un jeu de données académique."
+    }
+  },
+  "stack": {
+    "title": "Stack Technique"
+  },
+  "journey": {
+    "title": "Mon Parcours",
+    "label": "03. parcours"
+  },
+  "contact": {
+    "title": "Construisons ensemble",
+    "subtitle": "Un projet en tête ? Parlons-en.",
+    "email": "Me contacter",
+    "github": "GitHub",
+    "linkedin": "LinkedIn"
+  },
+  "footer": {
+    "copyright": "© 2025 Anaelle Mathe. Tous droits réservés."
+  }
+}

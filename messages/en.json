@@ -1,0 +1,70 @@
+{
+  "nav": {
+    "about": "About",
+    "projects": "Projects",
+    "journey": "Journey",
+    "stack": "Stack",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Anaelle Mathe",
+    "roles": ["Software Engineer", "Web Developer", "Problem Solver", "Creative Coder"],
+    "tagline": "Crafting digital experiences with clean code and bold design.",
+    "scrollHint": "Scroll down"
+  },
+  "about": {
+    "title": "About Me",
+    "bio": "I'm a software engineering student passionate about building elegant, performant web applications. I love the intersection of code and design — where technical precision meets creative vision.",
+    "bio2": "When I'm not coding, you'll find me exploring new technologies, contributing to open-source projects, or sketching out UI concepts.",
+    "stats": {
+      "years": "Years of code",
+      "projects": "Projects built",
+      "techs": "Technologies"
+    },
+    "yearsValue": "3",
+    "projectsValue": "12",
+    "techsValue": "20",
+    "imageAlt": "Anaelle Mathe"
+  },
+  "projects": {
+    "title": "Projects",
+    "featured": "Featured",
+    "viewCode": "View Code",
+    "viewDemo": "Live Demo",
+    "campuslift": {
+      "title": "CampusLift",
+      "description": "A student-centered crowdfunding platform where creators publish campus initiatives, collect micro-pledges, and engage through threaded discussions — with Stripe payments, live notifications, and content moderation.",
+      "longDescription": "CampusLift lets students fund campus initiatives through micro-pledges. Creators manage full project lifecycles (draft → published → archived), track funding in real time via Supabase, and receive email/in-app pledge notifications. Supporters browse by category, pledge via Stripe Checkout, and participate in threaded discussions. Built with Next.js 16, React 19, TypeScript, Tailwind CSS 4, Supabase (PostgreSQL + real-time), Stripe, and Resend. 8 RLS-protected tables, 109+ tests, Playwright E2E, and a GitHub Actions CI pipeline."
+    },
+    "placeholder1": {
+      "title": "University Project #1",
+      "description": "A web application built as part of a university assignment, exploring full-stack concepts."
+    },
+    "placeholder2": {
+      "title": "Embedded Systems Project",
+      "description": "Programmed an autonomous robot to navigate a black-line circuit, avoid obstacles, and return to its starting position — using an ATmega324PA AVR microcontroller, C/C++, and state machine logic."
+    },
+    "placeholder3": {
+      "title": "University Project #3",
+      "description": "A data visualization tool built with React and D3.js for an academic dataset."
+    }
+  },
+  "stack": {
+    "title": "Tech Stack"
+  },
+  "journey": {
+    "title": "My Journey",
+    "label": "03. journey"
+  },
+  "contact": {
+    "title": "Let's build something",
+    "subtitle": "Have a project in mind? Let's talk.",
+    "email": "Get in touch",
+    "github": "GitHub",
+    "linkedin": "LinkedIn"
+  },
+  "footer": {
+    "copyright": "© 2025 Anaelle Mathe. All rights reserved."
+  }
+}
