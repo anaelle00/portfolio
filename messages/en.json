@@ -42,22 +42,21 @@
     "featured": "Featured",
     "viewCode": "View Code",
     "viewDemo": "Live Demo",
+    "learnMore": "Learn more",
     "campuslift": {
       "title": "CampusLift",
-      "description": "A student-centered crowdfunding platform where creators publish campus initiatives, collect micro-pledges, and engage through threaded discussions — with Stripe payments, live notifications, and content moderation.",
-      "longDescription": "CampusLift lets students fund campus initiatives through micro-pledges. Creators manage full project lifecycles (draft → published → archived), track funding in real time via Supabase, and receive email/in-app pledge notifications. Supporters browse by category, pledge via Stripe Checkout, and participate in threaded discussions. Built with Next.js 16, React 19, TypeScript, Tailwind CSS 4, Supabase (PostgreSQL + real-time), Stripe, and Resend. 8 RLS-protected tables, 109+ tests, Playwright E2E, and a GitHub Actions CI pipeline."
+      "description": "Student crowdfunding platform — creators publish campus initiatives, collect micro-pledges, and engage through threaded discussions with Stripe payments and live notifications.",
+      "tagline": "Crowdfunding platform empowering student-led campus initiatives"
     },
-    "placeholder1": {
-      "title": "University Project #1",
-      "description": "A web application built as part of a university assignment, exploring full-stack concepts."
+    "pankration": {
+      "title": "Pankration",
+      "description": "Full-stack web application built as part of a university project at Polytechnique Montréal, exploring modern full-stack concepts.",
+      "tagline": "Full-stack university project"
     },
-    "placeholder2": {
-      "title": "Embedded Systems Project",
-      "description": "Programmed an autonomous robot to navigate a black-line circuit, avoid obstacles, and return to its starting position — using an ATmega324PA AVR microcontroller, C/C++, and state machine logic."
-    },
-    "placeholder3": {
-      "title": "University Project #3",
-      "description": "A data visualization tool built with React and D3.js for an academic dataset."
+    "robot": {
+      "title": "Autonomous Robot — INF1900",
+      "description": "Programmed an autonomous robot to navigate a black-line circuit, avoid obstacles, and return to its starting position — using an ATmega324PA AVR microcontroller and state machine logic.",
+      "tagline": "Embedded autonomous robot with line tracking and obstacle avoidance"
     }
   },
   "stack": {

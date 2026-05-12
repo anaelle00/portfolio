@@ -110,7 +110,7 @@ export default function Projects() {
                     {t(featured.titleKey)}
                   </h3>
                   <p className="leading-relaxed" style={{ color: "var(--text-secondary)" }}>
-                    {t(featured.longDescriptionKey!)}
+                    {t(featured.descriptionKey as Parameters<typeof t>[0])}
                   </p>
                   <div className="flex flex-wrap gap-2">
                     {featured.stack.map((tech) => (
@@ -128,22 +128,34 @@ export default function Projects() {
                       </span>
                     ))}
                   </div>
-                  <div className="flex gap-4 pt-2">
-                    {featured.github && (
+                  <div className="flex gap-4 pt-2 flex-wrap">
+                    <a
+                      href={`/projects/${featured.slug}`}
+                      className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl font-semibold text-sm transition-all duration-200 hover:scale-105"
+                      style={{
+                        background: "linear-gradient(135deg, var(--pink), var(--violet))",
+                        color: "white",
+                        boxShadow: "0 0 20px rgba(255,42,157,0.3)",
+                        fontFamily: "var(--font-display)",
+                      }}
+                      data-cursor-hover
+                    >
+                      {t("projects.learnMore")} →
+                    </a>
+                    {featured.demo && (
                       <a
-                        href={featured.github}
+                        href={featured.demo}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl font-semibold text-sm transition-all duration-200 hover:scale-105"
                         style={{
-                          background: "linear-gradient(135deg, var(--pink), var(--violet))",
-                          color: "white",
-                          boxShadow: "0 0 20px rgba(255,42,157,0.3)",
+                          border: "1px solid rgba(255,42,157,0.35)",
+                          color: "var(--text-primary)",
                           fontFamily: "var(--font-display)",
                         }}
                         data-cursor-hover
                       >
-                        {t("projects.viewCode")} ↗
+                        {t("projects.viewDemo")} ↗
                       </a>
                     )}
                   </div>

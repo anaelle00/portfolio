@@ -97,9 +97,26 @@ export default function ProjectCard({ project }: ProjectCardProps) {
           ))}
         </div>
 
-        {/* Link */}
-        {project.github && (
-          <div style={{ paddingTop: "0.25rem" }}>
+        {/* Links */}
+        <div style={{ paddingTop: "0.25rem", display: "flex", gap: "1rem", alignItems: "center" }}>
+          <a
+            href={`/projects/${project.slug}`}
+            style={{
+              fontSize: "0.75rem",
+              fontFamily: "var(--font-mono)",
+              color: "var(--pink)",
+              textDecoration: "none",
+              display: "inline-flex",
+              alignItems: "center",
+              gap: "0.35rem",
+              transition: "opacity 0.2s",
+            }}
+            onMouseEnter={(e) => (e.currentTarget.style.opacity = "0.7")}
+            onMouseLeave={(e) => (e.currentTarget.style.opacity = "1")}
+          >
+            {t("projects.learnMore")} →
+          </a>
+          {project.github && (
             <a
               href={project.github}
               target="_blank"
@@ -119,8 +136,8 @@ export default function ProjectCard({ project }: ProjectCardProps) {
             >
               {t("projects.viewCode")} ↗
             </a>
-          </div>
-        )}
+          )}
+        </div>
       </div>
     </motion.div>
   );

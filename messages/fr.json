@@ -42,22 +42,21 @@
     "featured": "À la une",
     "viewCode": "Voir le code",
     "viewDemo": "Démo live",
+    "learnMore": "En savoir plus",
     "campuslift": {
       "title": "CampusLift",
-      "description": "Une plateforme de financement participatif étudiante : les créateurs publient des initiatives campus, collectent des micro-dons et animent des discussions — avec paiements Stripe, notifications en direct et modération.",
-      "longDescription": "CampusLift permet aux étudiants de financer des initiatives campus via des micro-dons. Les créateurs gèrent le cycle de vie complet de leurs projets (brouillon → publié → archivé), suivent les financements en temps réel via Supabase et reçoivent des notifications par email et in-app. Les supporters parcourent les projets par catégorie, contribuent via Stripe Checkout et participent à des discussions. Construit avec Next.js 16, React 19, TypeScript, Tailwind CSS 4, Supabase (PostgreSQL + temps réel), Stripe et Resend. 8 tables protégées par RLS, 109+ tests, E2E Playwright et pipeline CI GitHub Actions."
+      "description": "Plateforme de financement participatif étudiante — les créateurs publient des initiatives campus, collectent des micro-dons et animent des discussions avec paiements Stripe et notifications en direct.",
+      "tagline": "Plateforme de crowdfunding pour les initiatives étudiantes"
     },
-    "placeholder1": {
-      "title": "Projet Universitaire #1",
-      "description": "Une application web réalisée dans le cadre d'un projet universitaire, explorant les concepts full-stack."
+    "pankration": {
+      "title": "Pankration",
+      "description": "Application web full-stack réalisée dans le cadre d'un projet universitaire à Polytechnique Montréal, explorant les concepts modernes du développement full-stack.",
+      "tagline": "Projet universitaire full-stack"
     },
-    "placeholder2": {
-      "title": "Projet Systèmes Embarqués",
-      "description": "Programmation d'un robot autonome pour suivre une ligne noire, éviter des obstacles et revenir à sa position de départ — avec un microcontrôleur ATmega324PA, C/C++ et une logique à base de machines à états."
-    },
-    "placeholder3": {
-      "title": "Projet Universitaire #3",
-      "description": "Un outil de visualisation de données construit avec React et D3.js pour un jeu de données académique."
+    "robot": {
+      "title": "Robot Autonome — INF1900",
+      "description": "Programmation d'un robot autonome pour suivre une ligne noire, éviter des obstacles et revenir à sa position de départ — avec un microcontrôleur ATmega324PA et une logique à base de machines à états.",
+      "tagline": "Robot embarqué autonome avec suivi de ligne et évitement d'obstacles"
     }
   },
   "stack": {
