@@ -33,7 +33,7 @@
     "imageAlt": "Anaelle Mathe",
     "values": {
       "title": "What I value",
-      "code": { "label": "Clean code", "desc": "Readable, tested, maintainable — code is read more than written." },
+      "code": { "label": "Clean code", "desc": "Readable, tested, maintainable. Code is read more than it is written." },
       "design": { "label": "Thoughtful design", "desc": "Every pixel and interaction should have intent." },
       "human": { "label": "Human-first", "desc": "Tech serves people, not the other way around." }
     }
@@ -46,17 +46,17 @@
     "learnMore": "Learn more",
     "campuslift": {
       "title": "CampusLift",
-      "description": "Student crowdfunding platform — creators publish campus initiatives, collect micro-pledges, and engage through threaded discussions with Stripe payments and live notifications.",
+      "description": "Student crowdfunding platform where creators publish campus initiatives, collect micro-pledges, and engage through threaded discussions with Stripe payments and live notifications.",
       "tagline": "Crowdfunding platform empowering student-led campus initiatives"
     },
     "pankration": {
       "title": "Pankration",
-      "description": "Full-stack web application built as part of a university project at Polytechnique Montréal, exploring modern full-stack concepts.",
-      "tagline": "Full-stack university project"
+      "description": "Real-time multiplayer tactical RPG built for LOG2995 at Polytechnique Montréal. Grid-based map editor, turn-based combat, two game modes, AI opponents, and Socket.IO live sync.",
+      "tagline": "Real-time multiplayer tactical RPG with map editor, turn-based combat, and AI opponents"
     },
     "robot": {
       "title": "Autonomous Robot — INF1900",
-      "description": "Programmed an autonomous robot to navigate a black-line circuit, avoid obstacles, and return to its starting position — using an ATmega324PA AVR microcontroller and state machine logic.",
+      "description": "Programmed an autonomous robot to navigate a black-line circuit, avoid obstacles, and return to its starting position using an ATmega324PA AVR microcontroller and state machine logic.",
       "tagline": "Embedded autonomous robot with line tracking and obstacle avoidance"
     }
   },
@@ -67,12 +67,12 @@
     "engagements": "Engagements & experiences",
     "passions": "Artistic passions",
     "items": {
-      "eai": { "title": "E-AI — Volunteering", "desc": "Student association linking ethics and AI — active member and volunteer." },
+      "eai": { "title": "E-AI — Volunteering", "desc": "Student association linking ethics and AI. Active member and volunteer." },
       "climate": { "title": "Climate volunteering", "desc": "Environmental engagement, upcoming June 2026." },
       "datathon": { "title": "Finance Datathon 2025", "desc": "Participant in a financial data analysis hackathon." },
-      "art": { "title": "Art & humanities", "desc": "Curiosity for visual arts and the humanities — a constant source of inspiration." },
+      "art": { "title": "Art & humanities", "desc": "Curiosity for visual arts and the humanities. A constant source of inspiration." },
       "music": { "title": "Drums & Piano", "desc": "Musician who loves playing drums and piano. The rigor of rhythm feeds the rigor of code." },
-      "dance": { "title": "Dance", "desc": "Movement as a second language — contemporary and improvisation." }
+      "dance": { "title": "Dance", "desc": "Movement as a second language. Contemporary dance and improvisation." }
     }
   },
   "stack": {

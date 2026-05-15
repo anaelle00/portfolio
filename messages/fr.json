@@ -33,7 +33,7 @@
     "imageAlt": "Anaelle Mathe",
     "values": {
       "title": "Ce que je valorise",
-      "code": { "label": "Code propre", "desc": "Lisible, testé, maintenable — le code se lit plus qu'il ne s'écrit." },
+      "code": { "label": "Code propre", "desc": "Lisible, testé, maintenable. Le code se lit plus qu'il ne s'écrit." },
       "design": { "label": "Design pensé", "desc": "Chaque pixel et interaction doit avoir une intention." },
       "human": { "label": "Avant tout humain", "desc": "La tech est au service des gens, pas l'inverse." }
     }
@@ -46,17 +46,17 @@
     "learnMore": "En savoir plus",
     "campuslift": {
       "title": "CampusLift",
-      "description": "Plateforme de financement participatif étudiante — les créateurs publient des initiatives campus, collectent des micro-dons et animent des discussions avec paiements Stripe et notifications en direct.",
+      "description": "Plateforme de financement participatif étudiante où les créateurs publient des initiatives campus, collectent des micro-dons et animent des discussions avec paiements Stripe et notifications en direct.",
       "tagline": "Plateforme de crowdfunding pour les initiatives étudiantes"
     },
     "pankration": {
       "title": "Pankration",
-      "description": "Application web full-stack réalisée dans le cadre d'un projet universitaire à Polytechnique Montréal, explorant les concepts modernes du développement full-stack.",
-      "tagline": "Projet universitaire full-stack"
+      "description": "RPG tactique multijoueur en temps réel développé pour LOG2995 à Polytechnique Montréal. Éditeur de carte en grille, combat au tour par tour, deux modes de jeu, adversaires IA et synchronisation live via Socket.IO.",
+      "tagline": "RPG tactique multijoueur en temps réel avec éditeur de carte, combat au tour par tour et IA"
     },
     "robot": {
       "title": "Robot Autonome — INF1900",
-      "description": "Programmation d'un robot autonome pour suivre une ligne noire, éviter des obstacles et revenir à sa position de départ — avec un microcontrôleur ATmega324PA et une logique à base de machines à états.",
+      "description": "Programmation d'un robot autonome pour suivre une ligne noire, éviter des obstacles et revenir à sa position de départ, avec un microcontrôleur ATmega324PA et une logique à base de machines à états.",
       "tagline": "Robot embarqué autonome avec suivi de ligne et évitement d'obstacles"
     }
   },
@@ -67,12 +67,12 @@
     "engagements": "Engagements & expériences",
     "passions": "Passions artistiques",
     "items": {
-      "eai": { "title": "E-AI — Bénévolat", "desc": "Association étudiante liant éthique et IA — membre active et bénévole." },
+      "eai": { "title": "E-AI — Bénévolat", "desc": "Association étudiante liant éthique et IA. Membre active et bénévole." },
       "climate": { "title": "Bénévolat climat", "desc": "Engagement pour l'environnement, à venir juin 2026." },
       "datathon": { "title": "Finance Datathon 2025", "desc": "Participante à un hackathon d'analyse de données financières." },
-      "art": { "title": "Art & sciences humaines", "desc": "Curiosité pour les arts visuels et les sciences humaines — source constante d'inspiration." },
+      "art": { "title": "Art & sciences humaines", "desc": "Curiosité pour les arts visuels et les sciences humaines. Source constante d'inspiration." },
       "music": { "title": "Batterie & Piano", "desc": "Musicienne qui aime jouer de la batterie et du piano. La rigueur du rythme nourrit la rigueur du code." },
-      "dance": { "title": "Danse", "desc": "Le mouvement comme deuxième langage — contemporain et improvisation." }
+      "dance": { "title": "Danse", "desc": "Le mouvement comme deuxième langage. Danse contemporaine et improvisation." }
     }
   },
   "stack": {

@@ -20,12 +20,12 @@ const data: ProjectData = {
   imageSrc: "/images/campuslift.png",
   contextEn: `Many student initiatives at universities lack the visibility and funding they need to come to life. Traditional funding channels are slow, opaque, and rarely accessible to undergraduates with a weekend-born idea.
 
-CampusLift was built to fix that: a focused crowdfunding platform where student creators can publish projects, set goals and deadlines, and collect micro-pledges from their campus community — all in a few clicks.
+CampusLift was built to fix that: a focused crowdfunding platform where student creators can publish projects, set goals and deadlines, and collect micro-pledges from their campus community, all in a few clicks.
 
 What started as a hackathon idea became a production-ready app: 8 RLS-protected database tables, 109+ tests, Stripe-integrated payments, real-time funding progress, and a full moderation system.`,
   contextFr: `De nombreuses initiatives étudiantes manquent de visibilité et de financement pour voir le jour. Les canaux traditionnels sont lents, opaques et rarement accessibles à des étudiants avec une idée née un week-end.
 
-CampusLift a été construit pour changer ça : une plateforme de crowdfunding ciblée où les créateurs étudiants peuvent publier des projets, fixer des objectifs et collecter des micro-dons auprès de leur communauté campus — en quelques clics.
+CampusLift a été construit pour changer ça : une plateforme de crowdfunding ciblée où les créateurs étudiants peuvent publier des projets, fixer des objectifs et collecter des micro-dons auprès de leur communauté campus, en quelques clics.
 
 Ce qui a commencé comme une idée de hackathon est devenu une app prête pour la production : 8 tables protégées par RLS, 109+ tests, paiements intégrés avec Stripe, progression du financement en temps réel et un système complet de modération.`,
   myRoleEn: `I led the full-stack architecture from the ground up: designed the database schema with Row Level Security policies, built the Stripe Checkout integration with idempotent webhook handling, implemented the real-time funding progress using Supabase Realtime subscriptions, and wrote the E2E test suite with Playwright.

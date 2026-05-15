@@ -17,12 +17,12 @@ const data: ProjectData = {
   statusFr: "Terminé",
   github: "https://github.com/anaelle00/INF1900-Final-Project",
   imageSrc: "/images/robot.jpg",
-  contextEn: `INF1900 is the flagship integrative project of the first year of software engineering at Polytechnique Montréal. The challenge: program a fully autonomous robot using an ATmega324PA AVR microcontroller in C and C++, with no operating system, no high-level abstractions — just bare metal hardware.
+  contextEn: `INF1900 is the flagship integrative project of the first year of software engineering at Polytechnique Montréal. The challenge: program a fully autonomous robot using an ATmega324PA AVR microcontroller in C and C++, with no operating system, no high-level abstractions. Just bare metal hardware.
 
 The robot had to navigate a 4×8 ft circuit, follow a black line, dynamically detect and avoid obstacles, respond to button inputs at intersections, and return to its starting position after completing the course.
 
 Everything runs in real-time on a severely resource-constrained device: 2 KB SRAM, 32 KB flash, no dynamic memory allocation.`,
-  contextFr: `INF1900 est le projet intégrateur phare de la première année de génie logiciel à Polytechnique Montréal. Le défi : programmer un robot entièrement autonome avec un microcontrôleur ATmega324PA en C et C++, sans système d'exploitation, sans abstraction haut niveau — du bare metal pur.
+  contextFr: `INF1900 est le projet intégrateur phare de la première année de génie logiciel à Polytechnique Montréal. Le défi : programmer un robot entièrement autonome avec un microcontrôleur ATmega324PA en C et C++, sans système d'exploitation, sans abstraction haut niveau. Du bare metal pur.
 
 Le robot devait naviguer sur un circuit de 4×8 pieds, suivre une ligne noire, détecter et éviter des obstacles dynamiquement, répondre à des entrées bouton aux intersections, et revenir à sa position de départ après avoir complété le parcours.
 
@@ -40,8 +40,8 @@ Responsable de la conception des FSM, de la calibration des capteurs et des test
   ],
   challenges: [
     {
-      challengeEn: "2 KB SRAM — every byte counts",
-      challengeFr: "2 Ko de SRAM — chaque octet compte",
+      challengeEn: "2 KB SRAM: every byte counts",
+      challengeFr: "2 Ko de SRAM : chaque octet compte",
       approachEn: "No dynamic allocation, stack-allocated state, compile-time constants, and aggressive code size optimization",
       approachFr: "Aucune allocation dynamique, état alloué sur la pile, constantes à la compilation et optimisation agressive de la taille du code",
       outcomeEn: "Stable firmware with no stack overflow across all test runs",
