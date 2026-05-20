@@ -68,7 +68,7 @@
     "passions": "Passions artistiques",
     "items": {
       "eai": { "title": "E-AI — Bénévolat", "desc": "Association étudiante liant éthique et IA. Membre active et bénévole." },
-      "climate": { "title": "Bénévolat climat", "desc": "Engagement pour l'environnement, à venir juin 2026." },
+      "climate": { "title": "Bénévolat climat", "desc": "Bénévole à l'événement des Prix Solutions Climatiques à Montréal, 17–18 juin 2026." },
       "datathon": { "title": "Finance Datathon 2025", "desc": "Participante à un hackathon d'analyse de données financières." },
       "art": { "title": "Art & sciences humaines", "desc": "Curiosité pour les arts visuels et les sciences humaines. Source constante d'inspiration." },
       "music": { "title": "Batterie & Piano", "desc": "Musicienne qui aime jouer de la batterie et du piano. La rigueur du rythme nourrit la rigueur du code." },

@@ -11,21 +11,21 @@ const TIERS = [
     labelFr: "Outils quotidiens",
     color: "var(--pink)",
     speed: 30,
-    items: ["TypeScript", "React", "Next.js", "Tailwind CSS", "Git", "GitHub", "PostgreSQL", "Supabase"],
+    items: ["TypeScript", "React", "Next.js", "Vercel", "Angular", "Tailwind CSS", "Git", "GitHub", "C++",  "Visual Studio", "Microsoft Office"],
   },
   {
     labelEn: "Solid foundation",
     labelFr: "Bases solides",
     color: "var(--cyan)",
     speed: 22,
-    items: ["Node.js", "Python", "C++", "Java", "REST APIs", "Stripe", "Express", "Prisma", "MongoDB"],
+    items: ["Node.js", "Figma", "PostgreSQL", "Python", "Supabase", "JavaScript", "REST APIs", "Stripe", "Express", "Prisma", "MongoDB"],
   },
   {
     labelEn: "Currently exploring",
     labelFr: "En cours d'exploration",
     color: "var(--text-muted)",
     speed: 16,
-    items: ["Docker", "GSAP", "Framer Motion", "Playwright", "Vitest", "GitHub Actions", "FastAPI", "Redis"],
+    items: ["Playwright", "Vitest", "GitHub Actions", "Java", "FastAPI", "C#"],
   },
 ];
 
