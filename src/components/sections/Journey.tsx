@@ -87,7 +87,7 @@ function TimelineItem({
 
   return (
     <div ref={ref} className="relative grid md:grid-cols-2 gap-8 md:gap-16 items-center">
-      {/* Dot on the line */}
+      {/* Dot on the line - desktop only */}
       <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10 hidden md:flex items-center justify-center">
         <motion.div
           initial={{ scale: 0 }}
@@ -102,56 +102,45 @@ function TimelineItem({
         />
       </div>
 
-      {/* Left side */}
+      {/* Mobile: single card */}
+      <motion.div
+        className="md:hidden"
+        initial={{ opacity: 0, y: 20 }}
+        animate={isInView ? { opacity: 1, y: 0 } : {}}
+        transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] as [number, number, number, number] }}
+      >
+        <Card title={title} subtitle={subtitle} description={description} location={event.location} tag={tag} yearDisplay={yearDisplay} />
+      </motion.div>
+
+      {/* Desktop left column */}
       <motion.div
         initial={{ opacity: 0, x: isLeft ? -30 : 30 }}
         animate={isInView ? { opacity: 1, x: 0 } : {}}
         transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] as [number, number, number, number] }}
-        className={isLeft ? "md:text-right md:pr-12" : "md:col-start-2 md:pl-12"}
+        className={`hidden md:block ${isLeft ? "text-right pr-12" : "col-start-2 pl-12"}`}
       >
         {isLeft ? (
           <Card title={title} subtitle={subtitle} description={description} location={event.location} tag={tag} yearDisplay={yearDisplay} />
         ) : (
-          <div className="md:hidden">
-            <Card title={title} subtitle={subtitle} description={description} location={event.location} tag={tag} yearDisplay={yearDisplay} />
-          </div>
-        )}
-        {!isLeft && (
-          <div className="hidden md:block">
-            <span className="text-5xl font-bold" style={{ fontFamily: "var(--font-display)", color: "var(--pink)", opacity: 0.15 }}>
-              {event.year}
-            </span>
-          </div>
-        )}
-        {isLeft && (
-          <div className="hidden md:block">
-            <span className="text-5xl font-bold" style={{ fontFamily: "var(--font-display)", color: "var(--pink)", opacity: 0.15 }}>
-              {event.year}
-            </span>
-          </div>
+          <span className="text-5xl font-bold" style={{ fontFamily: "var(--font-display)", color: "var(--pink)", opacity: 0.15 }}>
+            {event.year}
+          </span>
         )}
       </motion.div>
 
-      {/* Right side */}
+      {/* Desktop right column */}
       <motion.div
         initial={{ opacity: 0, x: isLeft ? 30 : -30 }}
         animate={isInView ? { opacity: 1, x: 0 } : {}}
         transition={{ duration: 0.6, delay: 0.1, ease: [0.16, 1, 0.3, 1] as [number, number, number, number] }}
-        className={isLeft ? "md:pl-12" : "md:text-right md:pr-12 md:col-start-1 md:row-start-1"}
+        className={`hidden md:block ${isLeft ? "pl-12" : "text-right pr-12 col-start-1 row-start-1"}`}
       >
         {!isLeft ? (
           <Card title={title} subtitle={subtitle} description={description} location={event.location} tag={tag} yearDisplay={yearDisplay} />
         ) : (
-          <div className="hidden md:block">
-            <span className="text-5xl font-bold" style={{ fontFamily: "var(--font-display)", color: "var(--pink)", opacity: 0.15 }}>
-              {event.year}
-            </span>
-          </div>
-        )}
-        {isLeft && (
-          <div className="md:hidden">
-            <Card title={title} subtitle={subtitle} description={description} location={event.location} tag={tag} yearDisplay={yearDisplay} />
-          </div>
+          <span className="text-5xl font-bold" style={{ fontFamily: "var(--font-display)", color: "var(--pink)", opacity: 0.15 }}>
+            {event.year}
+          </span>
         )}
       </motion.div>
     </div>

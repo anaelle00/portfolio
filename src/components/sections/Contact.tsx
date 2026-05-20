@@ -74,7 +74,7 @@ export default function Contact() {
             viewport={{ once: true }}
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.3 }}
-            className="inline-flex items-center gap-3 px-8 py-5 rounded-2xl text-xl font-bold mb-6"
+            className="inline-flex items-center gap-3 px-5 py-4 md:px-8 md:py-5 rounded-2xl text-sm md:text-xl font-bold mb-6"
             style={{
               background: "linear-gradient(135deg, rgba(255,42,157,0.15), rgba(168,85,247,0.1))",
               border: "1px solid rgba(255,42,157,0.4)",
