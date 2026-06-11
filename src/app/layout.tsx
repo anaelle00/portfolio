@@ -22,9 +22,9 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://anaellemathe.dev"),
-  title: "Anaelle Mathe — Software Engineer · Montréal",
+  title: "Anaelle Mathe | Software Engineer · Montréal",
   description:
-    "Software engineering student at Polytechnique Montréal. Full-stack developer — Next.js, Supabase, TypeScript.",
+    "Software engineering student at Polytechnique Montréal. Full-stack developer with a passion for frontend, design, and hands-on projects.",
   keywords: [
     "software engineer",
     "web developer",
@@ -42,16 +42,16 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://anaellemathe.dev",
-    title: "Anaelle Mathe — Software Engineer · Montréal",
+    title: "Anaelle Mathe | Software Engineer · Montréal",
     description:
-      "Software engineering student at Polytechnique Montréal. Full-stack developer — Next.js, Supabase, TypeScript.",
+      "Software engineering student at Polytechnique Montréal. Full-stack developer with a passion for frontend, design, and hands-on projects.",
     siteName: "Anaelle Mathe",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Anaelle Mathe — Software Engineer · Montréal",
+    title: "Anaelle Mathe | Software Engineer · Montréal",
     description:
-      "Software engineering student at Polytechnique Montréal. Full-stack developer — Next.js, Supabase, TypeScript.",
+      "Software engineering student at Polytechnique Montréal. Full-stack developer with a passion for frontend, design, and hands-on projects.",
   },
   robots: {
     index: true,

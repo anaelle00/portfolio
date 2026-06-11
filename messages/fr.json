@@ -11,7 +11,7 @@
     "greeting": "Salut, je suis",
     "name": "Anaelle Mathe",
     "roles": ["Ingénieure Logicielle", "Développeuse Web", "Problem Solver", "Creative Coder"],
-    "tagline": "Étudiante en génie logiciel à Polytechnique Montréal. Je code des apps full-stack et j'aime quand c'est bien fait.",
+    "tagline": "Étudiante en génie logiciel à Polytechnique Montréal. Je développe aussi des projets perso pour aller plus loin que la théorie.",
     "scrollHint": "Découvrir",
     "availability": "Disponible pour stages · Hiver / Été 2027",
     "location": "Montréal, QC",
@@ -19,23 +19,24 @@
   },
   "about": {
     "title": "À propos",
-    "bio": "Je suis en 3e année de génie logiciel à Polytechnique Montréal, après une prépa et un bac mention très bien au lycée Saint-Paul à Angoulême. En juillet 2026, je pars en échange à l'Université de Technologie de Sydney.",
-    "bio2": "J'aime construire des choses qui marchent — des apps complètes, du backend au frontend, avec de vrais utilisateurs en tête. Mon projet principal c'est CampusLift, une plateforme de financement étudiant que j'ai construite de A à Z avec Next.js, Supabase et Stripe.",
-    "bio3": "En dehors du code, je joue de la batterie et du piano, je danse, et je m'intéresse à l'art et aux sciences humaines. C'est pas le profil type ingénieur et c'est tant mieux.",
+    "bio": "Je suis en 3e année de génie logiciel à Polytechnique Montréal. J'ai grandi en France et j'ai décidé de venir à Montréal pour changer d'environnement et découvrir une ville qui m'attirait par son énergie et son ouverture. Après un an de préparatoire, j'ai intégré le programme de génie logiciel, et à partir de juillet 2026, je pars en échange à l'Université de Technologie de Sydney.",
+    "bio2": "Ce que j'aime par-dessus tout, c'est apprendre. Découvrir de nouveaux domaines, changer de perspective, essayer des choses sans avoir peur de me tromper. J'ai un côté artistique qu'on a toujours valorisé, et c'est probablement pour ça que je me retrouve plus naturellement dans le frontend. Cela dit, les problèmes complexes du backend ne me font pas peur, au contraire. La cybersécurité et l'IA sont des sujets que je n'ai pas encore assez explorés mais que je compte approfondir. Je m'intéresse aussi beaucoup à la medtech, la radiothérapie et la science en général.",
+    "bio3": "À l'école, j'ai travaillé sur plusieurs projets en équipe. De mon côté, j'ai construit CampusLift, une plateforme de crowdfunding étudiant, de A à Z. Ce n'est peut-être pas parfait, mais je suis fière d'être allée au bout, et ça m'a permis d'appliquer concrètement tout ce que j'apprends en cours.",
+    "bio4": "En dehors du code, j'adore m'évader dans des domaines artistiques comme la danse et la musique. Je pense que c'est mon ouverture d'esprit et ma persévérance qui me permettent de progresser, autant en ingénierie que dans le reste.",
     "stats": {
       "years": "Ans de code",
       "projects": "Projets réalisés",
       "techs": "Technologies"
     },
-    "yearsValue": "2",
+    "yearsValue": "4",
     "projectsValue": "5",
-    "techsValue": "10",
+    "techsValue": "15",
     "imageAlt": "Anaelle Mathe",
     "values": {
       "title": "Ce que je valorise",
-      "code": { "label": "Code propre", "desc": "J'écris du code que je serais pas gênée de montrer en entrevue." },
-      "design": { "label": "UX qui a du sens", "desc": "Si c'est beau mais inutilisable, c'est raté." },
-      "human": { "label": "Curiosité", "desc": "Je préfère comprendre pourquoi avant de coder comment." }
+      "code": { "label": "Code propre", "desc": "La lisibilité, c'est la base. Pouvoir se relire, partir du bon pied, et faciliter le travail en équipe. Pour moi c'est essentiel dans chaque projet." },
+      "design": { "label": "UX qui a du sens", "desc": "C'est un domaine que j'apprécie énormément. Un logo, une page d'accueil, des détails simples qui en quelques secondes peuvent faire pencher un avis. Ça compte plus qu'on ne le pense." },
+      "human": { "label": "Curiosité et ouverture", "desc": "Je suis curieuse de nature et j'aime toucher à tout. Je crois que rester ouverte aux idées et aux domaines différents, c'est ce qui permet de mieux comprendre les problèmes qu'on essaie de résoudre." }
     }
   },
   "projects": {
@@ -46,7 +47,7 @@
     "learnMore": "En savoir plus",
     "campuslift": {
       "title": "CampusLift",
-      "description": "Plateforme de crowdfunding pour projets étudiants — création de projets, paiements Stripe, commentaires, modération admin, notifications temps réel. Construit en solo.",
+      "description": "Plateforme de crowdfunding pour projets étudiants. Création de projets, paiements Stripe, commentaires threadés, modération admin, notifications temps réel. Projet solo, construit de A à Z.",
       "tagline": "Plateforme de crowdfunding pour les initiatives étudiantes"
     },
     "pankration": {
@@ -55,7 +56,7 @@
       "tagline": "RPG tactique multijoueur en temps réel avec éditeur de carte, combat au tour par tour et IA"
     },
     "robot": {
-      "title": "Robot Autonome — INF1900",
+      "title": "Robot Autonome (INF1900)",
       "description": "Programmation d'un robot autonome pour suivre une ligne noire, éviter des obstacles et revenir à sa position de départ, avec un microcontrôleur ATmega324PA et une logique à base de machines à états.",
       "tagline": "Robot embarqué autonome avec suivi de ligne et évitement d'obstacles"
     }
@@ -67,8 +68,8 @@
     "engagements": "Engagements & expériences",
     "passions": "Passions artistiques",
     "items": {
-      "eai": { "title": "E-AI — Bénévolat", "desc": "Bénévole au sommet E-AI (Entertain-AI) — événement international sur l'IA et la création, entre prototypage, expérimentation et art numérique." },
-      "climate": { "title": "Bénévolat climat", "desc": "Bénévole au Festival des Prix Solutions Climatiques (CSP) 2026 au Marché Bonsecours — le plus grand événement climat du genre au Canada." },
+      "eai": { "title": "E-AI: Bénévolat", "desc": "Bénévole au sommet E-AI (Entertain-AI), un événement international sur l'IA et la création. Prototypage, expérimentation et art numérique." },
+      "climate": { "title": "Bénévolat climat", "desc": "Bénévole au Festival CSP 2026 au Marché Bonsecours à Montréal, les 8 et 9 juin. Le plus grand événement dédié aux solutions climatiques au Canada." },
       "datathon": { "title": "Finance Datathon 2025", "desc": "Participante à un hackathon d'analyse de données financières." },
       "art": { "title": "Art & sciences humaines", "desc": "Curiosité pour les arts visuels et les sciences humaines. Source constante d'inspiration." },
       "music": { "title": "Batterie & Piano", "desc": "Musicienne qui aime jouer de la batterie et du piano. La rigueur du rythme nourrit la rigueur du code." },
@@ -83,8 +84,8 @@
     "label": "03. parcours"
   },
   "contact": {
-    "title": "Un stage, un projet, une question ? Écris-moi.",
-    "subtitle": "Je cherche un stage hiver ou été 2027 — idéalement en développement full-stack.",
+    "title": "Un stage, un projet, une question ?",
+    "subtitle": "Je suis en 3e année de génie logiciel et je cherche un stage pour l'hiver ou l'été 2027.",
     "availability": "3e année · Génie logiciel · Polytechnique Montréal",
     "email": "Me contacter",
     "github": "GitHub",

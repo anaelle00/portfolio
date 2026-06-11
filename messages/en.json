@@ -11,7 +11,7 @@
     "greeting": "Hi, I'm",
     "name": "Anaelle Mathe",
     "roles": ["Software Engineer", "Web Developer", "Problem Solver", "Creative Coder"],
-    "tagline": "Software engineering student at Polytechnique Montréal. I build full-stack apps and care about doing it right.",
+    "tagline": "Software engineering student at Polytechnique Montréal. I also build personal projects to go beyond what's taught in class.",
     "scrollHint": "Scroll down",
     "availability": "Open to internships · Winter / Summer 2027",
     "location": "Montréal, QC",
@@ -19,23 +19,24 @@
   },
   "about": {
     "title": "About Me",
-    "bio": "I'm in my third year of software engineering at Polytechnique Montréal, after a preparatory year and a baccalauréat mention très bien from Lycée Saint-Paul in Angoulême. In July 2026, I'm heading to the University of Technology Sydney on exchange.",
-    "bio2": "I like building things that work — full apps, from backend to frontend, with real users in mind. My main project is CampusLift, a student funding platform I built from scratch with Next.js, Supabase, and Stripe.",
-    "bio3": "Outside of code, I play drums and piano, I dance, and I'm into art and the humanities. Not your typical engineer profile, and that's fine by me.",
+    "bio": "I'm in my third year of software engineering at Polytechnique Montréal. I grew up in France and decided to move to Montréal because I wanted a change of environment and was drawn to the city's energy and openness. After a preparatory year, I joined the software engineering program, and starting July 2026, I'll be on exchange at the University of Technology Sydney.",
+    "bio2": "What I love most is learning. Exploring new fields, seeing things from different angles, trying things without being afraid to fail. I've always had an artistic side that people around me have encouraged, which is probably why I gravitate toward frontend work. That said, complex backend problems don't scare me either, quite the opposite. Cybersecurity and AI are topics I haven't explored enough yet, but I plan to dig deeper. I'm also very interested in medtech, radiotherapy, and science in general.",
+    "bio3": "At school, I've worked on several team projects. On my own, I built CampusLift, a student crowdfunding platform, from scratch. It's probably not perfect, but I'm proud I saw it through to the end, and it let me put into practice everything I'm learning in class.",
+    "bio4": "Outside of coding, I love escaping into artistic pursuits like dance and music. I believe it's my open-mindedness and persistence that help me grow, both in engineering and in everything else.",
     "stats": {
       "years": "Years of code",
       "projects": "Projects built",
       "techs": "Technologies"
     },
-    "yearsValue": "2",
+    "yearsValue": "4",
     "projectsValue": "5",
-    "techsValue": "10",
+    "techsValue": "15",
     "imageAlt": "Anaelle Mathe",
     "values": {
       "title": "What I value",
-      "code": { "label": "Clean code", "desc": "I write code I wouldn't be embarrassed to show in an interview." },
-      "design": { "label": "UX that makes sense", "desc": "If it's pretty but unusable, it's failed." },
-      "human": { "label": "Curiosity", "desc": "I'd rather understand why before coding how." }
+      "code": { "label": "Clean code", "desc": "Readability is everything. Being able to re-read your own code, start on the right foot, and make teamwork easier. For me, that's essential in every project." },
+      "design": { "label": "UX that matters", "desc": "It's a field I really appreciate. A logo, a landing page, simple details that can shape someone's opinion in seconds. It matters more than people think." },
+      "human": { "label": "Curiosity and openness", "desc": "I'm naturally curious and I like exploring everything. I believe staying open to different ideas and fields is what helps you better understand the problems you're trying to solve." }
     }
   },
   "projects": {
@@ -46,7 +47,7 @@
     "learnMore": "Learn more",
     "campuslift": {
       "title": "CampusLift",
-      "description": "Student crowdfunding platform — project creation, Stripe payments, threaded comments, admin moderation, real-time notifications. Built solo.",
+      "description": "Crowdfunding platform for student projects. Project creation, Stripe payments, threaded comments, admin moderation, real-time notifications. Solo project, built from scratch.",
       "tagline": "Crowdfunding platform empowering student-led campus initiatives"
     },
     "pankration": {
@@ -55,7 +56,7 @@
       "tagline": "Real-time multiplayer tactical RPG with map editor, turn-based combat, and AI opponents"
     },
     "robot": {
-      "title": "Autonomous Robot — INF1900",
+      "title": "Autonomous Robot (INF1900)",
       "description": "Programmed an autonomous robot to navigate a black-line circuit, avoid obstacles, and return to its starting position using an ATmega324PA AVR microcontroller and state machine logic.",
       "tagline": "Embedded autonomous robot with line tracking and obstacle avoidance"
     }
@@ -67,8 +68,8 @@
     "engagements": "Engagements & experiences",
     "passions": "Artistic passions",
     "items": {
-      "eai": { "title": "E-AI — Volunteering", "desc": "Volunteered at the E-AI summit (Entertain-AI) — international event on AI and creativity, between prototyping, experimentation and digital art." },
-      "climate": { "title": "Climate volunteering", "desc": "Volunteered at the Festival des Prix Solutions Climatiques (CSP) 2026 at Marché Bonsecours — the largest climate event of its kind in Canada." },
+      "eai": { "title": "E-AI: Volunteering", "desc": "Volunteer at the E-AI summit (Entertain-AI), an international event on AI and creativity. Prototyping, experimentation, and digital art." },
+      "climate": { "title": "Climate volunteering", "desc": "Volunteer at the CSP 2026 Festival at Marché Bonsecours in Montréal, June 8-9. Canada's largest climate solutions event." },
       "datathon": { "title": "Finance Datathon 2025", "desc": "Participant in a financial data analysis hackathon." },
       "art": { "title": "Art & humanities", "desc": "Curiosity for visual arts and the humanities. A constant source of inspiration." },
       "music": { "title": "Drums & Piano", "desc": "Musician who loves playing drums and piano. The rigor of rhythm feeds the rigor of code." },
@@ -83,8 +84,8 @@
     "label": "03. journey"
   },
   "contact": {
-    "title": "A placement, a project, a question? Write to me.",
-    "subtitle": "Looking for a Winter or Summer 2027 internship — ideally in full-stack development.",
+    "title": "An internship, a project, a question?",
+    "subtitle": "I'm in my third year of software engineering and looking for an internship for winter or summer 2027.",
     "availability": "3rd year · Software Engineering · Polytechnique Montréal",
     "email": "Get in touch",
     "github": "GitHub",

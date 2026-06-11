@@ -4,8 +4,8 @@ import type { ProjectData } from "@/components/sections/ProjectPage";
 
 const data: ProjectData = {
   slug: "autonomous-robot",
-  titleEn: "Autonomous Robot — INF1900",
-  titleFr: "Robot Autonome — INF1900",
+  titleEn: "Autonomous Robot (INF1900)",
+  titleFr: "Robot Autonome (INF1900)",
   taglineEn: "Embedded autonomous robot with line tracking and obstacle avoidance",
   taglineFr: "Robot embarqué autonome avec suivi de ligne et évitement d'obstacles",
   year: "2024",

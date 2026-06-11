@@ -120,6 +120,18 @@ export default function About() {
               {t("bio3")}
             </motion.p>
 
+            <motion.p
+              variants={fadeUp}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, margin: "-60px" }}
+              custom={0.26}
+              className="leading-relaxed"
+              style={{ color: "var(--text-muted)" }}
+            >
+              {t("bio4")}
+            </motion.p>
+
             {/* Stats */}
             <motion.div
               variants={fadeUp}

@@ -22,11 +22,11 @@ export async function generateMetadata({
   if (locale === "fr") {
     return {
       description:
-        "Étudiante en génie logiciel à Polytechnique Montréal. Développeuse full-stack — Next.js, Supabase, TypeScript.",
+        "Étudiante en génie logiciel à Polytechnique Montréal. Développeuse full-stack, passionnée par le frontend, le design et les projets concrets.",
       openGraph: {
         locale: "fr_FR",
         description:
-          "Étudiante en génie logiciel à Polytechnique Montréal. Développeuse full-stack — Next.js, Supabase, TypeScript.",
+          "Étudiante en génie logiciel à Polytechnique Montréal. Développeuse full-stack, passionnée par le frontend, le design et les projets concrets.",
       },
     };
   }

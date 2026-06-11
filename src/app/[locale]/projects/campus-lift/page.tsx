@@ -9,31 +9,27 @@ const data: ProjectData = {
   taglineEn: "Crowdfunding platform empowering student-led campus initiatives",
   taglineFr: "Plateforme de crowdfunding pour les initiatives étudiantes",
   year: "2026",
-  role: "Solo developer",
-  roleFr: "Développeuse solo",
-  type: "Solo project",
-  typeFr: "Projet solo",
+  role: "Full-stack developer (solo)",
+  roleFr: "Développeuse full-stack (solo)",
+  type: "Personal project",
+  typeFr: "Projet personnel",
   status: "Production",
   statusFr: "En production",
   demo: "https://campuslift.vercel.app",
   github: "https://github.com/anaelle00/campuslift",
   imageSrc: "/images/campuslift.png",
-  contextEn: `I built CampusLift as a portfolio project to practice full-stack engineering at a level closer to what companies actually expect. It turned into a real product along the way.
+  contextEn: `I built this project to practice full-stack development at a level closer to what companies actually expect. As development progressed, it turned into a real, working product.
 
 The idea: a crowdfunding platform where students can publish campus initiatives, set goals, and collect micro-pledges from their community. Real Stripe payments, real-time progress updates, threaded discussions, and a full admin moderation system.
 
 8 RLS-protected database tables, 109+ tests, and a CI pipeline that runs on every push.`,
-  contextFr: `J'ai construit CampusLift comme projet portfolio pour pratiquer le développement full-stack à un niveau proche de ce qu'on attend en entreprise. Ça a fini par devenir un vrai produit.
+  contextFr: `J'ai construit ce projet pour pratiquer le développement full-stack à un niveau plus proche de ce qu'on attend en entreprise. Au fil du développement, c'est devenu un vrai produit fonctionnel.
 
 L'idée : une plateforme de crowdfunding où les étudiants publient des initiatives campus, fixent des objectifs et collectent des micro-dons. Paiements Stripe réels, progression en temps réel, discussions filées et système complet de modération admin.
 
 8 tables protégées par RLS, 109+ tests, et un pipeline CI qui tourne à chaque push.`,
-  myRoleEn: `I built everything from scratch: database schema with Row Level Security policies, Stripe Checkout integration with idempotent webhook handling, real-time funding progress via Supabase Realtime subscriptions, and the Playwright E2E test suite.
-
-I also set up the GitHub Actions CI pipeline (linting, type checking, test runs) and designed the project lifecycle state machine (draft → published → funded → archived).`,
-  myRoleFr: `J'ai tout construit de zéro : schéma de base de données avec les politiques RLS, intégration Stripe Checkout avec gestion idempotente des webhooks, progression en temps réel via Supabase Realtime, et la suite de tests E2E avec Playwright.
-
-J'ai aussi configuré le pipeline CI GitHub Actions et conçu la machine à états du cycle de vie des projets (brouillon → publié → financé → archivé).`,
+  myRoleEn: `I built everything from scratch: the database schema with Row Level Security policies, the Stripe Checkout integration with idempotent webhook handling, real-time funding tracking via Supabase Realtime, and the E2E test suite with Playwright. I also set up the GitHub Actions CI pipeline and designed the project lifecycle (draft → published → archived).`,
+  myRoleFr: `J'ai tout construit de zéro : le schéma de base de données avec les politiques Row Level Security, l'intégration Stripe Checkout avec un webhook idempotent, le suivi en temps réel du financement via Supabase Realtime, et la suite de tests E2E avec Playwright. J'ai aussi mis en place le pipeline CI GitHub Actions et conçu le cycle de vie des projets (brouillon → publié → archivé).`,
   stack: [
     { category: "Frontend", items: ["Next.js 16", "React 19", "TypeScript", "Tailwind CSS 4", "shadcn/ui"] },
     { category: "Backend", items: ["Supabase", "PostgreSQL 17", "Row Level Security", "Supabase Realtime"] },

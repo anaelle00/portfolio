@@ -9,10 +9,10 @@ import ScrambleText from "@/components/animations/ScrambleText";
 const EVENTS = [
   {
     year: "2020",
-    yearDisplay: "2020 — 2023",
-    yearDisplayFr: "2020 — 2023",
-    title: "Lycée Saint-Paul — Angoulême",
-    titleFr: "Lycée Saint-Paul — Angoulême",
+    yearDisplay: "2020–2023",
+    yearDisplayFr: "2020–2023",
+    title: "Lycée Saint-Paul, Angoulême",
+    titleFr: "Lycée Saint-Paul, Angoulême",
     subtitle: "Baccalauréat · Mention Très Bien",
     subtitleFr: "Baccalauréat · Mention Très Bien",
     description: "French scientific baccalauréat with highest honors.",
@@ -23,8 +23,8 @@ const EVENTS = [
   },
   {
     year: "2023",
-    yearDisplay: "2023 — 2024",
-    yearDisplayFr: "2023 — 2024",
+    yearDisplay: "2023–2024",
+    yearDisplayFr: "2023–2024",
     title: "Polytechnique Montréal",
     titleFr: "Polytechnique Montréal",
     subtitle: "Preparatory Year",
@@ -37,8 +37,8 @@ const EVENTS = [
   },
   {
     year: "2024",
-    yearDisplay: "2024 — present",
-    yearDisplayFr: "2024 — présent",
+    yearDisplay: "2024–present",
+    yearDisplayFr: "2024–présent",
     title: "Polytechnique Montréal",
     titleFr: "Polytechnique Montréal",
     subtitle: "Software Engineering · Distinction",
@@ -51,8 +51,8 @@ const EVENTS = [
   },
   {
     year: "2026",
-    yearDisplay: "Jul — Nov 2026",
-    yearDisplayFr: "Juil — Nov 2026",
+    yearDisplay: "Jul–Nov 2026",
+    yearDisplayFr: "Juil–Nov 2026",
     title: "University of Technology Sydney",
     titleFr: "University of Technology Sydney",
     subtitle: "International Exchange",
