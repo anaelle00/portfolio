@@ -11,7 +11,7 @@
     "greeting": "Hi, I'm",
     "name": "Anaelle Mathe",
     "roles": ["Software Engineer", "Web Developer", "Problem Solver", "Creative Coder"],
-    "tagline": "Crafting digital experiences with clean code and bold design.",
+    "tagline": "Software engineering student at Polytechnique Montréal. I build full-stack apps and care about doing it right.",
     "scrollHint": "Scroll down",
     "availability": "Open to internships · Winter / Summer 2027",
     "location": "Montréal, QC",
@@ -19,9 +19,9 @@
   },
   "about": {
     "title": "About Me",
-    "bio": "Software engineering student at Polytechnique Montréal, currently finishing my second year with distinction after a preparatory year and a baccalauréat mention très bien from Lycée Saint-Paul d'Angoulême. From July 2026, I'll be on exchange at the University of Technology Sydney.",
-    "bio2": "What truly interests me is the intersection of technical rigor and creative sensibility. I believe great products are born from that balance: clean code and design that makes sense.",
-    "bio3": "Beyond code, I love art, the humanities, music, and dance. It's that mix that shapes how I approach problems: with curiosity, method, and a strong sense of aesthetics.",
+    "bio": "I'm in my third year of software engineering at Polytechnique Montréal, after a preparatory year and a baccalauréat mention très bien from Lycée Saint-Paul in Angoulême. In July 2026, I'm heading to the University of Technology Sydney on exchange.",
+    "bio2": "I like building things that work — full apps, from backend to frontend, with real users in mind. My main project is CampusLift, a student funding platform I built from scratch with Next.js, Supabase, and Stripe.",
+    "bio3": "Outside of code, I play drums and piano, I dance, and I'm into art and the humanities. Not your typical engineer profile, and that's fine by me.",
     "stats": {
       "years": "Years of code",
       "projects": "Projects built",
@@ -33,9 +33,9 @@
     "imageAlt": "Anaelle Mathe",
     "values": {
       "title": "What I value",
-      "code": { "label": "Clean code", "desc": "Readable, tested, maintainable. Code is read more than it is written." },
-      "design": { "label": "Thoughtful design", "desc": "Every pixel and interaction should have intent." },
-      "human": { "label": "Human-first", "desc": "Tech serves people, not the other way around." }
+      "code": { "label": "Clean code", "desc": "I write code I wouldn't be embarrassed to show in an interview." },
+      "design": { "label": "UX that makes sense", "desc": "If it's pretty but unusable, it's failed." },
+      "human": { "label": "Curiosity", "desc": "I'd rather understand why before coding how." }
     }
   },
   "projects": {
@@ -46,7 +46,7 @@
     "learnMore": "Learn more",
     "campuslift": {
       "title": "CampusLift",
-      "description": "Student crowdfunding platform where creators publish campus initiatives, collect micro-pledges, and engage through threaded discussions with Stripe payments and live notifications.",
+      "description": "Student crowdfunding platform — project creation, Stripe payments, threaded comments, admin moderation, real-time notifications. Built solo.",
       "tagline": "Crowdfunding platform empowering student-led campus initiatives"
     },
     "pankration": {
@@ -67,8 +67,8 @@
     "engagements": "Engagements & experiences",
     "passions": "Artistic passions",
     "items": {
-      "eai": { "title": "E-AI — Volunteering", "desc": "Student association linking ethics and AI. Active member and volunteer." },
-      "climate": { "title": "Climate volunteering", "desc": "Volunteered at the Prix Solutions Climatiques event in Montréal, June 17–18, 2026." },
+      "eai": { "title": "E-AI — Volunteering", "desc": "Volunteered at the E-AI summit (Entertain-AI) — international event on AI and creativity, between prototyping, experimentation and digital art." },
+      "climate": { "title": "Climate volunteering", "desc": "Volunteered at the Festival des Prix Solutions Climatiques (CSP) 2026 at Marché Bonsecours — the largest climate event of its kind in Canada." },
       "datathon": { "title": "Finance Datathon 2025", "desc": "Participant in a financial data analysis hackathon." },
       "art": { "title": "Art & humanities", "desc": "Curiosity for visual arts and the humanities. A constant source of inspiration." },
       "music": { "title": "Drums & Piano", "desc": "Musician who loves playing drums and piano. The rigor of rhythm feeds the rigor of code." },
@@ -83,9 +83,9 @@
     "label": "03. journey"
   },
   "contact": {
-    "title": "Let's build something",
-    "subtitle": "Have a project in mind? Let's talk.",
-    "availability": "Currently in 3rd year of Software Engineering. Open to internships for Winter / Summer 2027.",
+    "title": "A placement, a project, a question? Write to me.",
+    "subtitle": "Looking for a Winter or Summer 2027 internship — ideally in full-stack development.",
+    "availability": "3rd year · Software Engineering · Polytechnique Montréal",
     "email": "Get in touch",
     "github": "GitHub",
     "linkedin": "LinkedIn",

@@ -11,7 +11,7 @@
     "greeting": "Salut, je suis",
     "name": "Anaelle Mathe",
     "roles": ["Ingénieure Logicielle", "Développeuse Web", "Problem Solver", "Creative Coder"],
-    "tagline": "Je crée des expériences numériques avec du code propre et un design audacieux.",
+    "tagline": "Étudiante en génie logiciel à Polytechnique Montréal. Je code des apps full-stack et j'aime quand c'est bien fait.",
     "scrollHint": "Découvrir",
     "availability": "Disponible pour stages · Hiver / Été 2027",
     "location": "Montréal, QC",
@@ -19,9 +19,9 @@
   },
   "about": {
     "title": "À propos",
-    "bio": "Étudiante en génie logiciel à Polytechnique Montréal, je termine ma 2e année avec mention d'excellence après une année préparatoire et un baccalauréat mention très bien au lycée Saint-Paul d'Angoulême. À partir de juillet 2026, je pars en échange à l'Université de Technologie de Sydney.",
-    "bio2": "Ce qui m'intéresse vraiment, c'est l'intersection entre la rigueur technique et la sensibilité créative. Je crois qu'un bon produit naît de cet équilibre : code propre et design qui a du sens.",
-    "bio3": "Au-delà du code, j'aime l'art, les sciences humaines, la musique et la danse. C'est ce mélange qui nourrit ma façon d'aborder les problèmes : avec curiosité, méthode et une bonne dose de sens esthétique.",
+    "bio": "Je suis en 3e année de génie logiciel à Polytechnique Montréal, après une prépa et un bac mention très bien au lycée Saint-Paul à Angoulême. En juillet 2026, je pars en échange à l'Université de Technologie de Sydney.",
+    "bio2": "J'aime construire des choses qui marchent — des apps complètes, du backend au frontend, avec de vrais utilisateurs en tête. Mon projet principal c'est CampusLift, une plateforme de financement étudiant que j'ai construite de A à Z avec Next.js, Supabase et Stripe.",
+    "bio3": "En dehors du code, je joue de la batterie et du piano, je danse, et je m'intéresse à l'art et aux sciences humaines. C'est pas le profil type ingénieur et c'est tant mieux.",
     "stats": {
       "years": "Ans de code",
       "projects": "Projets réalisés",
@@ -33,9 +33,9 @@
     "imageAlt": "Anaelle Mathe",
     "values": {
       "title": "Ce que je valorise",
-      "code": { "label": "Code propre", "desc": "Lisible, testé, maintenable. Le code se lit plus qu'il ne s'écrit." },
-      "design": { "label": "Design pensé", "desc": "Chaque pixel et interaction doit avoir une intention." },
-      "human": { "label": "Avant tout humain", "desc": "La tech est au service des gens, pas l'inverse." }
+      "code": { "label": "Code propre", "desc": "J'écris du code que je serais pas gênée de montrer en entrevue." },
+      "design": { "label": "UX qui a du sens", "desc": "Si c'est beau mais inutilisable, c'est raté." },
+      "human": { "label": "Curiosité", "desc": "Je préfère comprendre pourquoi avant de coder comment." }
     }
   },
   "projects": {
@@ -46,7 +46,7 @@
     "learnMore": "En savoir plus",
     "campuslift": {
       "title": "CampusLift",
-      "description": "Plateforme de financement participatif étudiante où les créateurs publient des initiatives campus, collectent des micro-dons et animent des discussions avec paiements Stripe et notifications en direct.",
+      "description": "Plateforme de crowdfunding pour projets étudiants — création de projets, paiements Stripe, commentaires, modération admin, notifications temps réel. Construit en solo.",
       "tagline": "Plateforme de crowdfunding pour les initiatives étudiantes"
     },
     "pankration": {
@@ -67,8 +67,8 @@
     "engagements": "Engagements & expériences",
     "passions": "Passions artistiques",
     "items": {
-      "eai": { "title": "E-AI — Bénévolat", "desc": "Association étudiante liant éthique et IA. Membre active et bénévole." },
-      "climate": { "title": "Bénévolat climat", "desc": "Bénévole à l'événement des Prix Solutions Climatiques à Montréal, 17–18 juin 2026." },
+      "eai": { "title": "E-AI — Bénévolat", "desc": "Bénévole au sommet E-AI (Entertain-AI) — événement international sur l'IA et la création, entre prototypage, expérimentation et art numérique." },
+      "climate": { "title": "Bénévolat climat", "desc": "Bénévole au Festival des Prix Solutions Climatiques (CSP) 2026 au Marché Bonsecours — le plus grand événement climat du genre au Canada." },
       "datathon": { "title": "Finance Datathon 2025", "desc": "Participante à un hackathon d'analyse de données financières." },
       "art": { "title": "Art & sciences humaines", "desc": "Curiosité pour les arts visuels et les sciences humaines. Source constante d'inspiration." },
       "music": { "title": "Batterie & Piano", "desc": "Musicienne qui aime jouer de la batterie et du piano. La rigueur du rythme nourrit la rigueur du code." },
@@ -83,9 +83,9 @@
     "label": "03. parcours"
   },
   "contact": {
-    "title": "Construisons ensemble",
-    "subtitle": "Un projet en tête ? Parlons-en.",
-    "availability": "Actuellement en 3e année de génie logiciel. Disponible pour stages hiver / été 2027.",
+    "title": "Un stage, un projet, une question ? Écris-moi.",
+    "subtitle": "Je cherche un stage hiver ou été 2027 — idéalement en développement full-stack.",
+    "availability": "3e année · Génie logiciel · Polytechnique Montréal",
     "email": "Me contacter",
     "github": "GitHub",
     "linkedin": "LinkedIn",

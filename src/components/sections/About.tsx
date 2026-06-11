@@ -7,12 +7,15 @@ import Image from "next/image";
 import ScrambleText from "@/components/animations/ScrambleText";
 
 function AnimatedCounter({ end, suffix = "" }: { end: number; suffix?: string }) {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState(end);
+  const [animated, setAnimated] = useState(false);
   const ref = useRef<HTMLSpanElement>(null);
   const inView = useInView(ref, { once: true, margin: "-80px" });
 
   useEffect(() => {
-    if (!inView) return;
+    if (!inView || animated) return;
+    setAnimated(true);
+    setCount(0);
     let start = 0;
     const increment = end / 60;
     const timer = setInterval(() => {
@@ -25,10 +28,10 @@ function AnimatedCounter({ end, suffix = "" }: { end: number; suffix?: string })
       }
     }, 16);
     return () => clearInterval(timer);
-  }, [inView, end]);
+  }, [inView, end, animated]);
 
   return (
-    <span ref={ref}>
+    <span ref={ref} suppressHydrationWarning>
       {count}
       {suffix}
     </span>

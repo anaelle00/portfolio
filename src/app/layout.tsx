@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://anaellemathe.dev"),
   title: "Anaelle Mathe — Software Engineer · Montréal",
   description:
-    "Software engineering student at Polytechnique Montréal. Building modern web experiences at the intersection of code and design.",
+    "Software engineering student at Polytechnique Montréal. Full-stack developer — Next.js, Supabase, TypeScript.",
   keywords: [
     "software engineer",
     "web developer",
@@ -44,14 +44,14 @@ export const metadata: Metadata = {
     url: "https://anaellemathe.dev",
     title: "Anaelle Mathe — Software Engineer · Montréal",
     description:
-      "Software engineering student at Polytechnique Montréal. Building modern web experiences at the intersection of code and design.",
+      "Software engineering student at Polytechnique Montréal. Full-stack developer — Next.js, Supabase, TypeScript.",
     siteName: "Anaelle Mathe",
   },
   twitter: {
     card: "summary_large_image",
     title: "Anaelle Mathe — Software Engineer · Montréal",
     description:
-      "Software engineering student at Polytechnique Montréal. Building modern web experiences at the intersection of code and design.",
+      "Software engineering student at Polytechnique Montréal. Full-stack developer — Next.js, Supabase, TypeScript.",
   },
   robots: {
     index: true,

@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { notFound } from "next/navigation";
@@ -10,6 +11,26 @@ type Locale = "en" | "fr";
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  if (locale === "fr") {
+    return {
+      description:
+        "Étudiante en génie logiciel à Polytechnique Montréal. Développeuse full-stack — Next.js, Supabase, TypeScript.",
+      openGraph: {
+        locale: "fr_FR",
+        description:
+          "Étudiante en génie logiciel à Polytechnique Montréal. Développeuse full-stack — Next.js, Supabase, TypeScript.",
+      },
+    };
+  }
+  return {};
 }
 
 export default async function LocaleLayout({
