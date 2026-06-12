@@ -71,9 +71,9 @@
       "eai": { "title": "E-AI: Bénévolat", "desc": "Bénévole au sommet E-AI (Entertain-AI), un événement international sur l'IA et la création. Prototypage, expérimentation et art numérique." },
       "climate": { "title": "Bénévolat climat", "desc": "Bénévole au Festival CSP 2026 au Marché Bonsecours à Montréal, les 8 et 9 juin. Le plus grand événement dédié aux solutions climatiques au Canada." },
       "datathon": { "title": "Finance Datathon 2025", "desc": "Participante à un hackathon d'analyse de données financières." },
-      "art": { "title": "Art & sciences humaines", "desc": "Curiosité pour les arts visuels et les sciences humaines. Source constante d'inspiration." },
-      "music": { "title": "Batterie & Piano", "desc": "Musicienne qui aime jouer de la batterie et du piano. La rigueur du rythme nourrit la rigueur du code." },
-      "dance": { "title": "Danse", "desc": "Le mouvement comme deuxième langage. Danse contemporaine et improvisation." }
+      "art": { "title": "Art & sciences humaines", "desc": "Je m'intéresse aux arts visuels et aux sciences humaines. Ça me donne une perspective différente sur ce que je fais en ingénierie." },
+      "music": { "title": "Batterie & Piano", "desc": "Je joue de la batterie et du piano et j'aime la musique de manière générale. C'est un bon moyen de décrocher et de garder un équilibre !" },
+      "dance": { "title": "Danse", "desc": "J'ai fait beaucoup de danse (contemporaine, hip hop...) dans ma vie. J'aime le côté physique et créatif." }
     }
   },
   "stack": {

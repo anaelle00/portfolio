@@ -1,42 +1,9 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
 import { useTranslations } from "next-intl";
-import { motion, useInView } from "framer-motion";
+import { motion } from "framer-motion";
 import Image from "next/image";
 import ScrambleText from "@/components/animations/ScrambleText";
-
-function AnimatedCounter({ end, suffix = "" }: { end: number; suffix?: string }) {
-  const [count, setCount] = useState(end);
-  const [animated, setAnimated] = useState(false);
-  const ref = useRef<HTMLSpanElement>(null);
-  const inView = useInView(ref, { once: true, margin: "-80px" });
-
-  useEffect(() => {
-    if (!inView || animated) return;
-    setAnimated(true);
-    setCount(0);
-    let start = 0;
-    const increment = end / 60;
-    const timer = setInterval(() => {
-      start += increment;
-      if (start >= end) {
-        setCount(end);
-        clearInterval(timer);
-      } else {
-        setCount(Math.floor(start));
-      }
-    }, 16);
-    return () => clearInterval(timer);
-  }, [inView, end, animated]);
-
-  return (
-    <span ref={ref} suppressHydrationWarning>
-      {count}
-      {suffix}
-    </span>
-  );
-}
 
 const fadeUp = {
   hidden: { opacity: 0, y: 32 },
@@ -148,7 +115,7 @@ export default function About() {
                     className="text-3xl md:text-4xl font-bold mb-2 gradient-text"
                     style={{ fontFamily: "var(--font-display)" }}
                   >
-                    <AnimatedCounter end={stat.value} suffix={stat.suffix} />
+                    {stat.value}{stat.suffix}
                   </div>
                   <div
                     className="text-xs tracking-wider uppercase"

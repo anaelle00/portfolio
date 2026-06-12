@@ -71,9 +71,9 @@
       "eai": { "title": "E-AI: Volunteering", "desc": "Volunteer at the E-AI summit (Entertain-AI), an international event on AI and creativity. Prototyping, experimentation, and digital art." },
       "climate": { "title": "Climate volunteering", "desc": "Volunteer at the CSP 2026 Festival at Marché Bonsecours in Montréal, June 8-9. Canada's largest climate solutions event." },
       "datathon": { "title": "Finance Datathon 2025", "desc": "Participant in a financial data analysis hackathon." },
-      "art": { "title": "Art & humanities", "desc": "Curiosity for visual arts and the humanities. A constant source of inspiration." },
-      "music": { "title": "Drums & Piano", "desc": "Musician who loves playing drums and piano. The rigor of rhythm feeds the rigor of code." },
-      "dance": { "title": "Dance", "desc": "Movement as a second language. Contemporary dance and improvisation." }
+      "art": { "title": "Art & humanities", "desc": "I'm interested in visual arts and humanities. It gives me a different perspective on what I do in engineering." },
+      "music": { "title": "Drums & Piano", "desc": "I play drums and piano and I like music in general. It's a great way to disconnect and keep a balance!" },
+      "dance": { "title": "Dance", "desc": "I've done a lot of dance (contemporary, hip hop...) in my life. I enjoy the physical and creative side of it." }
     }
   },
   "stack": {
