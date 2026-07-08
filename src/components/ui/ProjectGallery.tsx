@@ -57,6 +57,7 @@ export default function ProjectGallery({ items }: ProjectGalleryProps) {
                   fill
                   sizes="(min-width: 768px) 33vw, 50vw"
                   className="object-cover object-center transition-transform duration-500 group-hover:scale-105"
+                  unoptimized={item.src.endsWith(".gif")}
                 />
                 <div
                   className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center"
@@ -117,6 +118,7 @@ export default function ProjectGallery({ items }: ProjectGalleryProps) {
                   fill
                   className="object-contain"
                   sizes="90vw"
+                  unoptimized={items[lightboxIndex].src.endsWith(".gif")}
                 />
               </div>
               {items[lightboxIndex].caption && (

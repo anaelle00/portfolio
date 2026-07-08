@@ -25,6 +25,16 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    id: "fuel",
+    slug: "fuel",
+    titleKey: "projects.fuel.title",
+    descriptionKey: "projects.fuel.description",
+    stack: ["React Native", "Expo", "TypeScript", "Supabase", "Claude API"],
+    imageSrc: "/images/fuel/discover.png",
+    imageAlt: "FUEL",
+    github: "https://github.com/anaelle00/FUEL",
+  },
+  {
     id: "pankration",
     slug: "pankration",
     titleKey: "projects.pankration.title",

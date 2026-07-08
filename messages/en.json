@@ -21,7 +21,7 @@
     "title": "About Me",
     "bio": "I'm in my third year of software engineering at Polytechnique Montréal. I grew up in France and decided to move to Montréal because I wanted a change of environment and was drawn to the city's energy and openness. After a preparatory year, I joined the software engineering program, and starting July 2026, I'll be on exchange at the University of Technology Sydney.",
     "bio2": "What I love most is learning. Exploring new fields, seeing things from different angles, trying things without being afraid to fail. I've always had an artistic side that people around me have encouraged, which is probably why I gravitate toward frontend work. That said, complex backend problems don't scare me either, quite the opposite. Cybersecurity and AI are topics I haven't explored enough yet, but I plan to dig deeper. I'm also very interested in medtech, radiotherapy, and science in general.",
-    "bio3": "At school, I've worked on several team projects. On my own, I built CampusLift, a student crowdfunding platform, from scratch. It's probably not perfect, but I'm proud I saw it through to the end, and it let me put into practice everything I'm learning in class.",
+    "bio3": "At school, I've worked on several team projects. On my own, CampusLift is my biggest personal project to date. I built it solo to explore designing a complete application, from the user interface to Stripe payments and data management with Supabase. It's probably not perfect, but I'm proud I saw it through to the end, and it let me put into practice everything I'm learning in class.",
     "bio4": "Outside of coding, I love escaping into artistic pursuits like dance and music. I believe it's my open-mindedness and persistence that help me grow, both in engineering and in everything else.",
     "stats": {
       "years": "Years of code",
@@ -29,7 +29,7 @@
       "techs": "Technologies"
     },
     "yearsValue": "4",
-    "projectsValue": "5",
+    "projectsValue": "6",
     "techsValue": "15",
     "imageAlt": "Anaelle Mathe",
     "values": {
@@ -55,6 +55,11 @@
       "description": "Real-time multiplayer tactical RPG built for LOG2995 at Polytechnique Montréal. Grid-based map editor, turn-based combat, two game modes, AI opponents, and Socket.IO live sync.",
       "tagline": "Real-time multiplayer tactical RPG with map editor, turn-based combat, and AI opponents"
     },
+    "fuel": {
+      "title": "FUEL",
+      "description": "Nutrition-first mobile food discovery for restaurant chains (~600 dishes, 4 chains), with a Claude-based AI agent that translates cravings into structured filters. Solo project.",
+      "tagline": "A nutrition-first food discovery app for restaurant chains, powered by a Claude-based AI agent."
+    },
     "robot": {
       "title": "Autonomous Robot (INF1900)",
       "description": "Programmed an autonomous robot to navigate a black-line circuit, avoid obstacles, and return to its starting position using an ATmega324PA AVR microcontroller and state machine logic.",
@@ -71,9 +76,9 @@
       "eai": { "title": "E-AI: Volunteering", "desc": "Volunteer at the E-AI summit (Entertain-AI), an international event on AI and creativity. Prototyping, experimentation, and digital art." },
       "climate": { "title": "Climate volunteering", "desc": "Volunteer at the CSP 2026 Festival at Marché Bonsecours in Montréal, June 8-9. Canada's largest climate solutions event." },
       "datathon": { "title": "Finance Datathon 2025", "desc": "Participant in a financial data analysis hackathon." },
-      "art": { "title": "Art & humanities", "desc": "I'm interested in visual arts and humanities. It gives me a different perspective on what I do in engineering." },
-      "music": { "title": "Drums & Piano", "desc": "I play drums and piano and I like music in general. It's a great way to disconnect and keep a balance!" },
-      "dance": { "title": "Dance", "desc": "I've done a lot of dance (contemporary, hip hop...) in my life. I enjoy the physical and creative side of it." }
+      "art": { "title": "Art & humanities", "desc": "I've always been interested in visual arts and humanities. I think that sensitivity helps me better understand users and design interfaces that aren't just functional, but also pleasant to use." },
+      "music": { "title": "Drums & Piano", "desc": "I've been playing drums and piano for several years. Beyond the escape, music taught me the discipline of tempo and the patience of repetitive practice, two things that show up in the way I code." },
+      "dance": { "title": "Dance", "desc": "After several years of contemporary dance and hip hop, I kept a taste for artistic expression and movement. That's probably why I'm so drawn to design and user experience today." }
     }
   },
   "stack": {

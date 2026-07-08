@@ -21,7 +21,7 @@
     "title": "À propos",
     "bio": "Je suis en 3e année de génie logiciel à Polytechnique Montréal. J'ai grandi en France et j'ai décidé de venir à Montréal pour changer d'environnement et découvrir une ville qui m'attirait par son énergie et son ouverture. Après un an de préparatoire, j'ai intégré le programme de génie logiciel, et à partir de juillet 2026, je pars en échange à l'Université de Technologie de Sydney.",
     "bio2": "Ce que j'aime par-dessus tout, c'est apprendre. Découvrir de nouveaux domaines, changer de perspective, essayer des choses sans avoir peur de me tromper. J'ai un côté artistique qu'on a toujours valorisé, et c'est probablement pour ça que je me retrouve plus naturellement dans le frontend. Cela dit, les problèmes complexes du backend ne me font pas peur, au contraire. La cybersécurité et l'IA sont des sujets que je n'ai pas encore assez explorés mais que je compte approfondir. Je m'intéresse aussi beaucoup à la medtech, la radiothérapie et la science en général.",
-    "bio3": "À l'école, j'ai travaillé sur plusieurs projets en équipe. De mon côté, j'ai construit CampusLift, une plateforme de crowdfunding étudiant, de A à Z. Ce n'est peut-être pas parfait, mais je suis fière d'être allée au bout, et ça m'a permis d'appliquer concrètement tout ce que j'apprends en cours.",
+    "bio3": "À l'école, j'ai travaillé sur plusieurs projets en équipe. De mon côté, CampusLift est mon plus gros projet personnel à ce jour. Je l'ai développé seule pour explorer la conception d'une application complète, de l'interface utilisateur jusqu'aux paiements Stripe et à la gestion des données avec Supabase. Ce n'est peut-être pas parfait, mais je suis fière d'être allée au bout, et ça m'a permis d'appliquer concrètement tout ce que j'apprends en cours.",
     "bio4": "En dehors du code, j'adore m'évader dans des domaines artistiques comme la danse et la musique. Je pense que c'est mon ouverture d'esprit et ma persévérance qui me permettent de progresser, autant en ingénierie que dans le reste.",
     "stats": {
       "years": "Ans de code",
@@ -29,7 +29,7 @@
       "techs": "Technologies"
     },
     "yearsValue": "4",
-    "projectsValue": "5",
+    "projectsValue": "6",
     "techsValue": "15",
     "imageAlt": "Anaelle Mathe",
     "values": {
@@ -55,6 +55,11 @@
       "description": "RPG tactique multijoueur en temps réel développé pour LOG2995 à Polytechnique Montréal. Éditeur de carte en grille, combat au tour par tour, deux modes de jeu, adversaires IA et synchronisation live via Socket.IO.",
       "tagline": "RPG tactique multijoueur en temps réel avec éditeur de carte, combat au tour par tour et IA"
     },
+    "fuel": {
+      "title": "FUEL",
+      "description": "App mobile de découverte alimentaire orientée nutrition pour les chaînes de restaurants (~600 plats, 4 chaînes), avec un agent IA basé sur Claude qui traduit des envies en filtres structurés. Projet solo.",
+      "tagline": "Une app mobile de découverte alimentaire orientée nutrition pour les chaînes de restaurants, propulsée par un agent IA basé sur Claude."
+    },
     "robot": {
       "title": "Robot Autonome (INF1900)",
       "description": "Programmation d'un robot autonome pour suivre une ligne noire, éviter des obstacles et revenir à sa position de départ, avec un microcontrôleur ATmega324PA et une logique à base de machines à états.",
@@ -71,9 +76,9 @@
       "eai": { "title": "E-AI: Bénévolat", "desc": "Bénévole au sommet E-AI (Entertain-AI), un événement international sur l'IA et la création. Prototypage, expérimentation et art numérique." },
       "climate": { "title": "Bénévolat climat", "desc": "Bénévole au Festival CSP 2026 au Marché Bonsecours à Montréal, les 8 et 9 juin. Le plus grand événement dédié aux solutions climatiques au Canada." },
       "datathon": { "title": "Finance Datathon 2025", "desc": "Participante à un hackathon d'analyse de données financières." },
-      "art": { "title": "Art & sciences humaines", "desc": "Je m'intéresse aux arts visuels et aux sciences humaines. Ça me donne une perspective différente sur ce que je fais en ingénierie." },
-      "music": { "title": "Batterie & Piano", "desc": "Je joue de la batterie et du piano et j'aime la musique de manière générale. C'est un bon moyen de décrocher et de garder un équilibre !" },
-      "dance": { "title": "Danse", "desc": "J'ai fait beaucoup de danse (contemporaine, hip hop...) dans ma vie. J'aime le côté physique et créatif." }
+      "art": { "title": "Art & sciences humaines", "desc": "Les arts visuels et les sciences humaines m'intéressent depuis toujours. Je pense que cette sensibilité m'aide à mieux comprendre les utilisateurs et à concevoir des interfaces qui ne sont pas juste fonctionnelles, mais aussi agréables à utiliser." },
+      "music": { "title": "Batterie & Piano", "desc": "Je joue de la batterie et du piano depuis plusieurs années. Au-delà de l'évasion, la musique m'a appris la rigueur du tempo et la patience du travail répétitif, deux choses qui se retrouvent dans ma façon de coder." },
+      "dance": { "title": "Danse", "desc": "Après plusieurs années de danse contemporaine et de hip hop, j'ai gardé le goût de l'expression artistique et du mouvement. C'est probablement ce qui explique pourquoi je m'intéresse autant au design et à l'expérience utilisateur aujourd'hui." }
     }
   },
   "stack": {
