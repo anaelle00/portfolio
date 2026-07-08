@@ -87,10 +87,10 @@ const LEARNINGS = {
 };
 
 const GALLERY = [
-  { type: "image" as const, src: "/images/fuel/FUEL_demo.gif", alt: "FUEL app in motion", captionEn: "The app in motion", captionFr: "L'app en mouvement" },
-  { type: "image" as const, src: "/images/fuel/discover.png", alt: "Discover screen", captionEn: "Discover screen with live sliders and filter chips", captionFr: "Écran de découverte avec sliders en direct et chips de filtres" },
-  { type: "image" as const, src: "/images/fuel/agent.png", alt: "AI agent", captionEn: "The AI agent translating a natural language craving", captionFr: "L'agent IA qui traduit une envie exprimée en langage naturel" },
-  { type: "image" as const, src: "/images/fuel/favorites.png", alt: "Favorites screen", captionEn: "Per user favorites, protected by RLS", captionFr: "Favoris par utilisateur, protégés par RLS" },
+  { type: "image" as const, src: "/images/fuel/FUEL_demo.gif", alt: "FUEL app in motion", captionEn: "The app in motion", captionFr: "L'app en mouvement", contain: true },
+  { type: "image" as const, src: "/images/fuel/discover.png", alt: "Discover screen", captionEn: "Discover screen with live sliders and filter chips", captionFr: "Écran de découverte avec sliders en direct et chips de filtres", contain: true },
+  { type: "image" as const, src: "/images/fuel/agent.png", alt: "AI agent", captionEn: "The AI agent translating a natural language craving", captionFr: "L'agent IA qui traduit une envie exprimée en langage naturel", contain: true },
+  { type: "image" as const, src: "/images/fuel/favorites.png", alt: "Favorites screen", captionEn: "Per user favorites, protected by RLS", captionFr: "Favoris par utilisateur, protégés par RLS", contain: true },
 ];
 
 const STACK = [
@@ -122,6 +122,7 @@ export default function FuelPage({ locale }: { locale: string }) {
     src: item.src,
     alt: item.alt,
     caption: fr ? item.captionFr : item.captionEn,
+    contain: item.contain,
   }));
 
   return (

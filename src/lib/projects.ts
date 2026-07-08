@@ -30,7 +30,7 @@ export const projects: Project[] = [
     titleKey: "projects.fuel.title",
     descriptionKey: "projects.fuel.description",
     stack: ["React Native", "Expo", "TypeScript", "Supabase", "Claude API"],
-    imageSrc: "/images/fuel/discover.png",
+    imageSrc: "/images/fuel/logo.png",
     imageAlt: "FUEL",
     github: "https://github.com/anaelle00/FUEL",
   },

@@ -9,6 +9,7 @@ export interface GalleryItem {
   src: string;
   alt?: string;
   caption?: string;
+  contain?: boolean;
 }
 
 interface ProjectGalleryProps {
@@ -56,7 +57,7 @@ export default function ProjectGallery({ items }: ProjectGalleryProps) {
                   alt={item.alt ?? ""}
                   fill
                   sizes="(min-width: 768px) 33vw, 50vw"
-                  className="object-cover object-center transition-transform duration-500 group-hover:scale-105"
+                  className={`${item.contain ? "object-contain" : "object-cover object-center"} transition-transform duration-500 group-hover:scale-105`}
                   unoptimized={item.src.endsWith(".gif")}
                 />
                 <div
@@ -119,6 +120,7 @@ export default function ProjectGallery({ items }: ProjectGalleryProps) {
                   className="object-contain"
                   sizes="90vw"
                   unoptimized={items[lightboxIndex].src.endsWith(".gif")}
+                  style={items[lightboxIndex].contain ? { background: "var(--bg-surface)" } : undefined}
                 />
               </div>
               {items[lightboxIndex].caption && (
