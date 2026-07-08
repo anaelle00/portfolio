@@ -187,7 +187,7 @@ export default function FuelPage({ locale }: { locale: string }) {
                 alt="FUEL discover screen"
                 fill
                 sizes="(min-width: 768px) 50vw, 100vw"
-                className="object-cover object-top"
+                className="object-contain"
                 priority
               />
             </motion.div>
