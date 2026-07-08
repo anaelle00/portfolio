@@ -179,15 +179,15 @@ export default function FuelPage({ locale }: { locale: string }) {
             <motion.div
               initial={{ opacity: 0, x: 30 }} animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] as [number, number, number, number] }}
-              className="relative rounded-2xl overflow-hidden border-glow"
-              style={{ aspectRatio: "16/10", background: "var(--bg-surface)" }}
+              className="flex justify-center"
             >
               <Image
                 src="/images/fuel/discover.png"
                 alt="FUEL discover screen"
-                fill
-                sizes="(min-width: 768px) 50vw, 100vw"
-                className="object-contain"
+                width={1179}
+                height={2556}
+                className="rounded-2xl border-glow w-full h-auto"
+                style={{ maxWidth: "260px" }}
                 priority
               />
             </motion.div>
