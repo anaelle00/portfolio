@@ -65,27 +65,6 @@ const DATA_MODEL = {
   ],
 };
 
-const LEARNINGS = {
-  en: [
-    { title: "Data integrity over speed", desc: 'I caught a bad value in my scraped Subway data (a tuna "sandwich" at 720 cal was actually a Power Bowl) by cross-checking the official PDF. Never trust a scraped source blindly; verify against the official one when a number looks off.' },
-    { title: "Foreign keys constrain deletion order", desc: "Deleting dishes failed while dish_tags still referenced them. I learned to delete in dependency order, and why ON DELETE CASCADE exists." },
-    { title: "Idempotent SQL", desc: "Re-running tag inserts threw duplicate-key errors until I used ON CONFLICT DO NOTHING. Now I write inserts to be safely re-runnable." },
-    { title: "RLS is a two-way tool", desc: 'I first met Row Level Security as "why do my queries return nothing?", then used it deliberately to make sure a user can only ever read their own favorites.' },
-    { title: "An agent must never outsmart its data", desc: "The AI returned a vegetarian tag that didn't exist in my database, which would return zero results. The fix: constrain the agent to only the tags actually populated. The agent reflects the data; it never exceeds it." },
-    { title: "Keep secrets off the client", desc: "A mobile app can be inspected, so the Anthropic API key lives in a Supabase Edge Function, never in the app bundle." },
-    { title: "Data reconciliation is the real work", desc: "Matching image URLs to dishes across sources with different naming conventions went from 50% to 100% match by building a rules-based normalizer with an ambiguity guard, so a wrong image never got linked." },
-  ],
-  fr: [
-    { title: "L'intégrité des données passe avant la vitesse", desc: "J'ai attrapé une valeur erronée dans mes données Subway scrapées (un sandwich au thon à 720 cal était en fait un Power Bowl) en croisant avec le PDF officiel. Ne jamais faire confiance aveuglément à une source scrapée : vérifier contre l'officielle quand un chiffre semble louche." },
-    { title: "Les clés étrangères contraignent l'ordre de suppression", desc: "La suppression de plats échouait tant que dish_tags les référençait encore. J'ai appris à supprimer dans l'ordre des dépendances, et pourquoi ON DELETE CASCADE existe." },
-    { title: "SQL idempotent", desc: "Réexécuter des insertions de tags levait des erreurs de clé dupliquée jusqu'à ce que j'utilise ON CONFLICT DO NOTHING. Maintenant j'écris les insertions pour qu'elles puissent être relancées sans risque." },
-    { title: "RLS est un outil dans les deux sens", desc: "J'ai d'abord rencontré Row Level Security comme \"pourquoi mes requêtes ne renvoient rien?\", puis je l'ai utilisé délibérément pour m'assurer qu'un utilisateur ne peut lire que ses propres favoris." },
-    { title: "Un agent ne doit jamais dépasser ses données", desc: "L'IA a retourné un tag vegetarian qui n'existait pas dans ma base, ce qui aurait renvoyé zéro résultats. La correction : contraindre l'agent aux seuls tags réellement peuplés. L'agent reflète les données ; il ne les dépasse jamais." },
-    { title: "Les secrets restent côté serveur", desc: "Une app mobile peut être inspectée, donc la clé API Anthropic vit dans une Edge Function Supabase, jamais dans le bundle de l'app." },
-    { title: "La réconciliation des données est le vrai travail", desc: "Faire correspondre les URLs d'images aux plats entre des sources aux conventions de nommage différentes est passé de 50% à 100% grâce à un normaliseur à base de règles avec garde anti-ambiguité, pour qu'une mauvaise image ne soit jamais liée." },
-  ],
-};
-
 const GALLERY = [
   { type: "image" as const, src: "/images/fuel/FUEL_demo.gif", alt: "FUEL app in motion", captionEn: "The app in motion", captionFr: "L'app en mouvement", contain: true },
   { type: "image" as const, src: "/images/fuel/discover.png", alt: "Discover screen", captionEn: "Discover screen with live sliders and filter chips", captionFr: "Écran de découverte avec sliders en direct et chips de filtres", contain: true },
@@ -333,34 +312,6 @@ export default function FuelPage({ locale }: { locale: string }) {
               </div>
             ))}
           </motion.div>
-        </div>
-      </section>
-
-      {/* Things I learned */}
-      <section className="py-16 border-t" style={{ borderColor: "rgba(255,42,157,0.08)" }}>
-        <div className="section-wrapper">
-          <SectionLabel text={fr ? "Ce que j'ai appris à la dure" : "Things I learned the hard way"} />
-          <div className="grid md:grid-cols-2 gap-4">
-            {(fr ? LEARNINGS.fr : LEARNINGS.en).map((item, i) => (
-              <motion.div
-                key={i}
-                variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true }} custom={i * 0.07}
-                className="rounded-2xl p-5"
-                style={{ background: "var(--bg-card)", border: "1px solid rgba(255,42,157,0.12)" }}
-              >
-                <div className="flex items-start gap-3">
-                  <span className="text-xs shrink-0 mt-0.5 w-5 h-5 rounded-full flex items-center justify-center font-bold"
-                        style={{ background: "rgba(255,42,157,0.15)", color: "var(--pink)", fontFamily: "var(--font-mono)" }}>
-                    {i + 1}
-                  </span>
-                  <div>
-                    <p className="text-sm font-semibold mb-1" style={{ fontFamily: "var(--font-display)" }}>{item.title}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "var(--text-secondary)" }}>{item.desc}</p>
-                  </div>
-                </div>
-              </motion.div>
-            ))}
-          </div>
         </div>
       </section>
 
