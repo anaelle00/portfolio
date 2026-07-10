@@ -253,6 +253,7 @@ export default function Hero() {
           </button>
           <a
             href="/cv.pdf"
+            download
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-full font-semibold transition-all duration-300 hover:scale-105"
