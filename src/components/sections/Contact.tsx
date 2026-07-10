@@ -98,7 +98,7 @@ export default function Contact() {
           >
             <a
               href="/cv.pdf"
-              download
+              download="CV_Anaelle_Mathe.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-5 py-3 rounded-xl text-sm font-semibold transition-all duration-200 hover:scale-105"
